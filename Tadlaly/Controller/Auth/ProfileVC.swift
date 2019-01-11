@@ -205,18 +205,7 @@ class ProfileVC: UIViewController {
             self.nameTF.text = (UserDefaults.standard.object(forKey: "user_name") as! String)
             self.emailTF.text = (UserDefaults.standard.object(forKey: "user_email") as! String)
             self.cityTF.text = (UserDefaults.standard.object(forKey: "user_city") as! String)
-            let passs=UserDefaults.standard.object(forKey: ("user_password"))
-            print("pass\(passs)")
-            
-            
-            
-            
-            self.passTF.text = (UserDefaults.standard.object(forKey: "user_password") as? String)
-            
-            let pas=(UserDefaults.standard.object(forKey: "user_password") as? String)
-            print("pas \(pas)")
-            
-            
+            self.passTF.text = (UserDefaults.standard.object(forKey: "user_password") as! String)
             self.phoneTF.text = (UserDefaults.standard.object(forKey: "user_phone") as! String)
              } else {
            }
