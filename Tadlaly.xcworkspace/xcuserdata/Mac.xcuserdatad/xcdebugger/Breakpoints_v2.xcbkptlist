@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tadlaly/API/API.swift"
+            timestampString = "568897288.637569"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "register(firstName:lastName:phoneNum:email:fullName:password:location:latitude:longtuide:userTokenId:image:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Tadlaly.API.register(firstName: Swift.String, lastName: Swift.String, phoneNum: Swift.String, email: Swift.String, fullName: Swift.String, password: Swift.String, location: Swift.String, latitude: Swift.String, longtuide: Swift.String, userTokenId: Swift.String, image: Swift.String, completion: (Swift.Optional&lt;Swift.Error&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Tadlaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Downloads/proj/Tadlaly/Tadlaly/API/API.swift"
+                  timestampString = "568121830.433674"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1730">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in static Tadlaly.API.register(firstName: Swift.String, lastName: Swift.String, phoneNum: Swift.String, email: Swift.String, fullName: Swift.String, password: Swift.String, location: Swift.String, latitude: Swift.String, longtuide: Swift.String, userTokenId: Swift.String, image: Swift.String, completion: (Swift.Optional&lt;Swift.Error&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Tadlaly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Downloads/proj/Tadlaly/Tadlaly/API/API.swift"
+                  timestampString = "568121830.437499"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tadlaly/API/API.swift"
+            timestampString = "568897288.637661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "register(firstName:lastName:phoneNum:email:fullName:password:location:latitude:longtuide:userTokenId:image:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tadlaly/API/API.swift"
+            timestampString = "568897288.637723"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "register(firstName:lastName:phoneNum:email:fullName:password:location:latitude:longtuide:userTokenId:image:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tadlaly/Controller/Home/HomeVC.swift"
+            timestampString = "568912903.848604"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
+            landmarkName = "branches(id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

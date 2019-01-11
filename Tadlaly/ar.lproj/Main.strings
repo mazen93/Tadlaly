@@ -1,0 +1,450 @@
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "0C8-PF-tow"; */
+"0C8-PF-tow.placeholder" = "الإيميل";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "0oh-8R-DyS"; */
+"0oh-8R-DyS.placeholder" = "المدينة";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "1fe-f4-KS3"; */
+"1fe-f4-KS3.placeholder" = "الإيميل";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "1L1-Lw-IWu"; */
+"1L1-Lw-IWu.text" = "الوقت";
+
+/* Class = "UILabel"; text = " بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"; ObjectID = "1SM-nX-7nl"; */
+"1SM-nX-7nl.text" = " بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ";
+
+/* Class = "UITextField"; placeholder = "(+Country key)phone"; ObjectID = "2ai-va-rIQ"; */
+"2ai-va-rIQ.placeholder" = "(+كودالدولة)رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "Create A New Account"; ObjectID = "4ME-KC-PTL"; */
+"4ME-KC-PTL.normalTitle" = "انشاء حساب جديد";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "4N4-h9-6nz"; */
+"4N4-h9-6nz.text" = "المدينة";
+
+/* Class = "UILabel"; text = "Max 6 images.Scroll to load more photos"; ObjectID = "5FH-lI-dXp"; */
+"5FH-lI-dXp.text" = "الحد الأقصي ٦ صور .قم بالسحب للمزيد";
+
+/* Class = "UILabel"; text = "city"; ObjectID = "7Mg-ll-kXN"; */
+"7Mg-ll-kXN.text" = "المدينة";
+
+/* Class = "UILabel"; text = "Undefined"; ObjectID = "7nT-Gu-pNz"; */
+"7nT-Gu-pNz.text" = "غير مغروف";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "9Rm-MH-Q5X"; */
+"9Rm-MH-Q5X.text" = "التاريخ";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "9y7-bZ-DJM"; */
+"9y7-bZ-DJM.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "SubName"; ObjectID = "aeH-H2-VZl"; */
+"aeH-H2-VZl.text" = "اسم الفرع";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "aHg-92-d7b"; */
+"aHg-92-d7b.text" = "العنوان";
+
+/* Class = "UIButton"; normalTitle = "Add Ad"; ObjectID = "aKl-4V-zea"; */
+"aKl-4V-zea.normalTitle" = "اضافة اعلان";
+
+/* Class = "UILabel"; text = "UserName"; ObjectID = "ASa-4K-NfB"; */
+"ASa-4K-NfB.text" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "عموله التطبيق علي المعلن"; ObjectID = "b8T-2e-7bu"; */
+"b8T-2e-7bu.text" = "عموله التطبيق علي المعلن";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "bgd-vx-3h5"; */
+"bgd-vx-3h5.title" = "الصفحة الشخصية";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "CcM-Cn-N3V"; */
+"CcM-Cn-N3V.text" = "الرقم السري";
+
+/* Class = "UILabel"; text = "صدق اللَّهُ العظيم"; ObjectID = "Cem-L9-F4H"; */
+"Cem-L9-F4H.text" = "صدق اللَّهُ العظيم";
+
+/* Class = "UIButton"; normalTitle = "(الاتفاقية)"; ObjectID = "cge-g7-woJ"; */
+"cge-g7-woJ.normalTitle" = "(الاتفاقية)";
+
+/* Class = "UIButton"; normalTitle = " Fresh Ads"; ObjectID = "d8n-sC-WgM"; */
+"d8n-sC-WgM.normalTitle" = "الأحدث";
+
+/* Class = "UIButton"; normalTitle = "Aprove the terms and condtions"; ObjectID = "D9J-Wo-3ac"; */
+"D9J-Wo-3ac.normalTitle" = "الموافقه علي الشروط والأحكام";
+
+/* Class = "UITextField"; placeholder = "UserName"; ObjectID = "Dcn-gm-QSN"; */
+"Dcn-gm-QSN.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "10 % من الإيرادات "; ObjectID = "dEy-5E-zr0"; */
+"dEy-5E-zr0.text" = "10 % من الإيرادات ";
+
+/* Class = "UILabel"; text = "Undefined"; ObjectID = "DHG-M7-vN0"; */
+"DHG-M7-vN0.text" = "غير معروف";
+
+/* Class = "UIButton"; normalTitle = "Create account"; ObjectID = "DLQ-mD-gyl"; */
+"DLQ-mD-gyl.normalTitle" = "انشاء حساب";
+
+/* Class = "UISegmentedControl"; Do8-lF-ISr.segmentTitles[0] = "Current"; ObjectID = "Do8-lF-ISr"; */
+"Do8-lF-ISr.segmentTitles[0]" = "الحاليه";
+
+/* Class = "UISegmentedControl"; Do8-lF-ISr.segmentTitles[1] = "Last"; ObjectID = "Do8-lF-ISr"; */
+"Do8-lF-ISr.segmentTitles[1]" = "السابقه";
+
+/* Class = "UITabBarItem"; title = "All"; ObjectID = "dOX-pR-CkM"; */
+"dOX-pR-CkM.title" = "الكل";
+
+/* Class = "UIButton"; normalTitle = "Contact US"; ObjectID = "dT6-nZ-CZC"; */
+"dT6-nZ-CZC.normalTitle" = " تواصل معنا";
+
+/* Class = "UILabel"; text = "Delet!"; ObjectID = "EAI-oh-uIe"; */
+"EAI-oh-uIe.text" = "حذف!";
+
+/* Class = "UILabel"; text = "Connect by app only(mobile number not shown to customers"; ObjectID = "EJY-Rc-WBG"; */
+"EJY-Rc-WBG.text" = "التواصل عن طريق التطبيق فقط(رقم الجوال لا يظهر للعملاء)";
+
+/* Class = "UISegmentedControl"; fjM-us-bca.segmentTitles[0] = "Disagree"; ObjectID = "fjM-us-bca"; */
+"fjM-us-bca.segmentTitles[0]" = "غير موافق";
+
+/* Class = "UISegmentedControl"; fjM-us-bca.segmentTitles[1] = "Agree"; ObjectID = "fjM-us-bca"; */
+"fjM-us-bca.segmentTitles[1]" = "موافق";
+
+/* Class = "UILabel"; text = "Kind"; ObjectID = "fSr-r7-Pum"; */
+"fSr-r7-Pum.text" = "النوع";
+
+/* Class = "UILabel"; text = "Ad Content"; ObjectID = "gfQ-Ta-uy1"; */
+"gfQ-Ta-uy1.text" = "تفاصيل الإعلان";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "gh2-cc-mwd"; */
+"gh2-cc-mwd.placeholder" = "المدينه";
+
+/* Class = "UISegmentedControl"; GS2-Tk-c5h.segmentTitles[0] = "Disagree"; ObjectID = "GS2-Tk-c5h"; */
+"GS2-Tk-c5h.segmentTitles[0]" = "غير موافق";
+
+/* Class = "UISegmentedControl"; GS2-Tk-c5h.segmentTitles[1] = "Agree"; ObjectID = "GS2-Tk-c5h"; */
+"GS2-Tk-c5h.segmentTitles[1]" = "موافق";
+
+/* Class = "UILabel"; text = "Don\"t sell anymore"; ObjectID = "gsH-dB-Exo"; */
+"gsH-dB-Exo.text" = "لا ارغب بالبيع";
+
+/* Class = "UILabel"; text = "Sold item"; ObjectID = "gvy-5B-oqg"; */
+"gvy-5B-oqg.text" = "تم البيع";
+
+/* Class = "UITabBarItem"; title = "Share"; ObjectID = "Gyr-bv-lds"; */
+"Gyr-bv-lds.title" = "مشاركة";
+
+/* Class = "UIButton"; normalTitle = "About "; ObjectID = "h3X-oe-Vn9"; */
+"h3X-oe-Vn9.normalTitle" = "عن التطبيق ";
+
+/* Class = "UILabel"; text = "Kind"; ObjectID = "hAJ-zl-crq"; */
+"hAJ-zl-crq.text" = "النوع";
+
+/* Class = "UITextField"; placeholder = "(+country key)Phone"; ObjectID = "hBe-vl-SLL"; */
+"hBe-vl-SLL.placeholder" = "(+كود الدولة)رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "My Account"; ObjectID = "hBn-dV-SOY"; */
+"hBn-dV-SOY.normalTitle" = "حسابي";
+
+/* Class = "UILabel"; text = "اتعهد أنا المعلن أن اقوم بدفع العمولة خلال اقل من 5 ايام من تاريخ استلام المبلغ كامل"; ObjectID = "hcR-V6-Hnt"; */
+"hcR-V6-Hnt.text" = "اتعهد أنا المعلن أن اقوم بدفع العمولة خلال اقل من 5 ايام من تاريخ استلام المبلغ كامل";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "hId-wE-3C3"; */
+"hId-wE-3C3.text" = "المدينة";
+
+/* Class = "UILabel"; text = "city"; ObjectID = "hKE-hE-eqw"; */
+"hKE-hE-eqw.text" = "المدينة";
+
+/* Class = "UILabel"; text = "Attach a copy of the money transfer"; ObjectID = "hOd-e2-M4l"; */
+"hOd-e2-M4l.text" = "ارفاق صوره من التحويل";
+
+/* Class = "UITabBarItem"; title = "Share"; ObjectID = "hpC-rd-KvQ"; */
+"hpC-rd-KvQ.title" = "مشاركه";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hUD-io-yH3"; */
+"hUD-io-yH3.normalTitle" = "الغاء";
+
+/* Class = "UILabel"; text = "Ad Content"; ObjectID = "hxY-TL-Tjz"; */
+"hxY-TL-Tjz.text" = "تفاصيل الإعلان";
+
+/* Class = "UILabel"; text = "The Bank That Has Been Transferred"; ObjectID = "i9o-1w-ySZ"; */
+"i9o-1w-ySZ.text" = "البنك المرادالتحويل عليه";
+
+/* Class = "UISegmentedControl"; Ia2-GO-A3j.segmentTitles[0] = "Disagree"; ObjectID = "Ia2-GO-A3j"; */
+"Ia2-GO-A3j.segmentTitles[0]" = "غير موافق";
+
+/* Class = "UISegmentedControl"; Ia2-GO-A3j.segmentTitles[1] = "Agree"; ObjectID = "Ia2-GO-A3j"; */
+"Ia2-GO-A3j.segmentTitles[1]" = "موافق";
+
+/* Class = "UILabel"; text = "الجمعيه الخيرية لرعاية الايتام إخاء"; ObjectID = "IaQ-hY-QFe"; */
+"IaQ-hY-QFe.text" = "الجمعيه الخيرية لرعاية الايتام إخاء";
+
+/* Class = "UILabel"; text = "dep"; ObjectID = "iBH-cH-Kjp"; */
+"iBH-cH-Kjp.text" = "الفرع";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "Ilf-cl-YWr"; */
+"Ilf-cl-YWr.normalTitle" = "إرسال";
+
+/* Class = "UILabel"; text = "distance"; ObjectID = "ilY-Vj-O6o"; */
+"ilY-Vj-O6o.text" = "المسافة";
+
+/* Class = "UILabel"; text = "since"; ObjectID = "ip8-3c-fFS"; */
+"ip8-3c-fFS.text" = "قبل";
+
+/* Class = "UILabel"; text = "قَالَ اللَّهُ تَعَالَى"; ObjectID = "isS-4a-5BM"; */
+"isS-4a-5BM.text" = "قَالَ اللَّهُ تَعَالَى";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "jF8-1R-zEf"; */
+"jF8-1R-zEf.text" = "التاريخ";
+
+/* Class = "UILabel"; text = "TDLLY.COM"; ObjectID = "jHG-xK-rM6"; */
+"jHG-xK-rM6.text" = "TDLLY.COM";
+
+/* Class = "UIButton"; normalTitle = "Rest Password"; ObjectID = "jOT-So-dGO"; */
+"jOT-So-dGO.normalTitle" = "استعادة الرقم السري";
+
+/* Class = "UITextField"; placeholder = "Ad ID"; ObjectID = "Jp8-zK-KA4"; */
+"Jp8-zK-KA4.placeholder" = "كودالإعلان";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "JWv-v2-2te"; */
+"JWv-v2-2te.text" = "الوقت";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "JZr-k4-d3W"; */
+"JZr-k4-d3W.text" = "الاسم";
+
+/* Class = "UILabel"; text = "since"; ObjectID = "k0S-KY-L7d"; */
+"k0S-KY-L7d.text" = "قبل";
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "KAG-F9-ccN"; */
+"KAG-F9-ccN.title" = "محادثة";
+
+/* Class = "UIButton"; normalTitle = "Near Ads"; ObjectID = "KXV-Uu-Qa0"; */
+"KXV-Uu-Qa0.normalTitle" = "حسب الأقرب";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "KYB-tn-jjf"; */
+"KYB-tn-jjf.title" = "الصفحة الرئيسية";
+
+/* Class = "UILabel"; text = "(+Country key)phone"; ObjectID = "lH0-Ey-Xbm"; */
+"lH0-Ey-Xbm.text" = "(+كود الدولة)رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "LP3-0A-vGQ"; */
+"LP3-0A-vGQ.normalTitle" = "اتمام";
+
+/* Class = "UILabel"; text = "ad code"; ObjectID = "lpB-RY-Om6"; */
+"lpB-RY-Om6.text" = "كود الأعلان";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "lPC-fq-bJf"; */
+"lPC-fq-bJf.placeholder" = "بحث";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "Lqp-zV-JN3"; */
+"Lqp-zV-JN3.text" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "(+Country Code)phone"; ObjectID = "lVK-q6-beU"; */
+"lVK-q6-beU.placeholder" = "(+كود الدولة)رقم الجوال";
+
+/* Class = "UILabel"; text = "share"; ObjectID = "mCB-FK-OX1"; */
+"mCB-FK-OX1.text" = "مشاركة";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "Mh2-rH-HyB"; */
+"Mh2-rH-HyB.placeholder" = "المدينة";
+
+/* Class = "UITabBarItem"; title = "Whatsapp"; ObjectID = "Mja-Le-kUq"; */
+"Mja-Le-kUq.title" = "الواتس اب";
+
+/* Class = "UITextField"; placeholder = "Ad title"; ObjectID = "Mld-VY-Sb3"; */
+"Mld-VY-Sb3.placeholder" = "عنوان الأعلان";
+
+/* Class = "UIButton"; normalTitle = "Connect through E-mail"; ObjectID = "Mls-Ft-IqH"; */
+"Mls-Ft-IqH.normalTitle" = "تواصل علي الإيميل";
+
+/* Class = "UILabel"; text = "Connect by app only(mobile number not shown to customers"; ObjectID = "Mr5-eg-ECH"; */
+"Mr5-eg-ECH.text" = "تواصل عن طريق التطبيق(رقم الجوال لا يظهر للعملاء)";
+
+/* Class = "UITextField"; placeholder = "E-mail"; ObjectID = "mtP-hO-mtg"; */
+"mtP-hO-mtg.placeholder" = "الإيميل";
+
+/* Class = "UILabel"; text = "distance"; ObjectID = "N4a-gf-RHQ"; */
+"N4a-gf-RHQ.text" = "المسافة";
+
+/* Class = "UITextField"; placeholder = "Re-password"; ObjectID = "Nk0-AS-q98"; */
+"Nk0-AS-q98.placeholder" = "اعاده للرقم السري";
+
+/* Class = "UILabel"; text = " وَأَوْفُوا بِعَهْدِ اللَّهِ إِذَا عَاهَدتُّمْ وَلَا تَنقُضُوا الْأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلًا"; ObjectID = "nwl-6h-pRD"; */
+"nwl-6h-pRD.text" = " وَأَوْفُوا بِعَهْدِ اللَّهِ إِذَا عَاهَدتُّمْ وَلَا تَنقُضُوا الْأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلًا";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "O8m-Fe-dcS"; */
+"O8m-Fe-dcS.text" = "الرسالة";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "oad-BB-42d"; */
+"oad-BB-42d.placeholder" = "عنوان البريد الالكتروني";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "obS-ZG-Tdo"; */
+"obS-ZG-Tdo.text" = "السعر";
+
+/* Class = "UIButton"; normalTitle = "Connect through whatsapp"; ObjectID = "Occ-qT-mZ4"; */
+"Occ-qT-mZ4.normalTitle" = "تواصل علي الواتس اب";
+
+/* Class = "UILabel"; text = "userName"; ObjectID = "oeK-mP-Dzf"; */
+"oeK-mP-Dzf.text" = "اسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "OJy-Dq-qnt"; */
+"OJy-Dq-qnt.normalTitle" = "اللغة العربية";
+
+/* Class = "UILabel"; text = "msgContent"; ObjectID = "OkD-lP-r3n"; */
+"OkD-lP-r3n.text" = "محتوي الرسالة";
+
+/* Class = "UILabel"; text = "city"; ObjectID = "oVC-J5-tw7"; */
+"oVC-J5-tw7.text" = "المدينة";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "P8s-8r-G0s"; */
+"P8s-8r-G0s.placeholder" = "الرقم السري";
+
+/* Class = "UIButton"; normalTitle = "Pay Commision"; ObjectID = "p61-rf-kYW"; */
+"p61-rf-kYW.normalTitle" = "دفع العمولة";
+
+/* Class = "UITextField"; placeholder = "Amount of commision"; ObjectID = "p66-ub-uuE"; */
+"p66-ub-uuE.placeholder" = "مبلغ العمولة";
+
+/* Class = "UILabel"; text = "messageContent"; ObjectID = "PAL-LM-a5H"; */
+"PAL-LM-a5H.text" = "محتوي الرسالة";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "plD-MQ-ENu"; */
+"plD-MQ-ENu.text" = "السعر";
+
+/* Class = "UIButton"; normalTitle = "Messages"; ObjectID = "PMe-AI-bOf"; */
+"PMe-AI-bOf.normalTitle" = "الرسائل";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "PN2-lj-y0j"; */
+"PN2-lj-y0j.text" = "السعر";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "pp5-8c-jnV"; */
+"pp5-8c-jnV.text" = "الأسم";
+
+/* Class = "UIButton"; normalTitle = "forget your password ?"; ObjectID = "pQp-XE-ppJ"; */
+"pQp-XE-ppJ.normalTitle" = "نسيت كلمة المرور؟";
+
+/* Class = "UITabBarItem"; title = "Call"; ObjectID = "Pvc-zM-FTH"; */
+"Pvc-zM-FTH.title" = "اتصال";
+
+/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "PWS-rk-Z93"; */
+"PWS-rk-Z93.normalTitle" = "الصفحة الرئيسية";
+
+/* Class = "UILabel"; text = "055 04 11 66 3"; ObjectID = "q2O-dl-M9C"; */
+"q2O-dl-M9C.text" = "055 04 11 66 3";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "Q4C-OM-ObH"; */
+"Q4C-OM-ObH.text" = "السعر";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Q8s-x2-mAY"; */
+"Q8s-x2-mAY.text" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "أتعهد انا المعلن أن جميع المعلومات التي سوف أذكرها بالاعلان صحيحة واتعهد ان الصور التي سوف يتم عرضها هي صور حديثة لنفس السلعة وليست لسعلة اخري مشابهة"; ObjectID = "qel-ZN-AI5"; */
+"qel-ZN-AI5.text" = "أتعهد انا المعلن أن جميع المعلومات التي سوف أذكرها بالاعلان صحيحة واتعهد ان الصور التي سوف يتم عرضها هي صور حديثة لنفس السلعة وليست لسعلة اخري مشابهة";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "QF1-PD-Rmm"; */
+"QF1-PD-Rmm.placeholder" = "الاسم";
+
+/* Class = "UIButton"; normalTitle = "My Ads"; ObjectID = "QFk-7O-p7X"; */
+"QFk-7O-p7X.normalTitle" = "إعلانتي";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Qhe-F8-ZFf"; */
+"Qhe-F8-ZFf.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "E-mail"; ObjectID = "qQm-sI-59D"; */
+"qQm-sI-59D.text" = "الإيميل";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "QR7-xn-fLT"; */
+"QR7-xn-fLT.normalTitle" = "تحديث";
+
+/* Class = "UILabel"; text = "distance"; ObjectID = "qwz-vQ-4fq"; */
+"qwz-vQ-4fq.text" = "المسافة";
+
+/* Class = "UITextField"; placeholder = "Ad title"; ObjectID = "r7q-Pq-Rza"; */
+"r7q-Pq-Rza.placeholder" = "عنوان الأعلان";
+
+/* Class = "UILabel"; text = "Add photo"; ObjectID = "rEI-lE-8Me"; */
+"rEI-lE-8Me.text" = "اضافة صور";
+
+/* Class = "UILabel"; text = "ad title"; ObjectID = "rop-ib-szR"; */
+"rop-ib-szR.text" = "عنوان الإعلان";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "rRu-sb-tBj"; */
+"rRu-sb-tBj.text" = "العنوان";
+
+/* Class = "UILabel"; text = "info@tdlly.com"; ObjectID = "sIE-6A-OWb"; */
+"sIE-6A-OWb.text" = "info@tdlly.com";
+
+/* Class = "UILabel"; text = "Transfer Date"; ObjectID = "T0T-3F-yVq"; */
+"T0T-3F-yVq.text" = "ميعاد التحويل";
+
+/* Class = "UILabel"; text = "UserName"; ObjectID = "tcE-qu-Vej"; */
+"tcE-qu-Vej.text" = "اسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "Tg8-dk-RiO"; */
+"Tg8-dk-RiO.normalTitle" = "إرسال";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "TOB-WK-cTc"; */
+"TOB-WK-cTc.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "Ubw-TM-tAO"; */
+"Ubw-TM-tAO.placeholder" = "الرقم السري";
+
+/* Class = "UIButton"; normalTitle = "Create a new account"; ObjectID = "UiU-W2-eMX"; */
+"UiU-W2-eMX.normalTitle" = "انشد حساب جديد";
+
+/* Class = "UITextField"; placeholder = "(+Country Key)Phone"; ObjectID = "Uq4-io-wjk"; */
+"Uq4-io-wjk.placeholder" = "(+كود الدولة)رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "Price"; ObjectID = "uw0-Vc-t53"; */
+"uw0-Vc-t53.placeholder" = "السعر";
+
+/* Class = "UILabel"; text = "kind"; ObjectID = "V3w-8l-0a0"; */
+"V3w-8l-0a0.text" = "النوع";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "vhc-ve-ipD"; */
+"vhc-ve-ipD.normalTitle" = "إرسال";
+
+/* Class = "UILabel"; text = "Max 6 images.Scroll to load more photos"; ObjectID = "VvG-gr-rfX"; */
+"VvG-gr-rfX.text" = "الحد الأقصي ٦ صور.اسحب للمزيد";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "W8X-ck-mAT"; */
+"W8X-ck-mAT.placeholder" = "الأسم";
+
+/* Class = "UILabel"; text = "Add photo"; ObjectID = "WHm-Sp-XVZ"; */
+"WHm-Sp-XVZ.text" = "اضافه صورة";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "wrX-vn-1LE"; */
+"wrX-vn-1LE.normalTitle" = "تخطي";
+
+/* Class = "UITextField"; placeholder = "Price"; ObjectID = "WVg-mK-Fu1"; */
+"WVg-mK-Fu1.placeholder" = "السعر";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "XxS-D6-uGO"; */
+"XxS-D6-uGO.normalTitle" = "إرسال";
+
+/* Class = "UILabel"; text = "  ملاحظه :"; ObjectID = "Xz9-V0-T0o"; */
+"Xz9-V0-T0o.text" = "  ملاحظه :";
+
+/* Class = "UILabel"; text = "Rules"; ObjectID = "yIU-4M-llv"; */
+"yIU-4M-llv.text" = "القواعد";
+
+/* Class = "UITextField"; placeholder = "Location"; ObjectID = "yLW-6S-YYV"; */
+"yLW-6S-YYV.placeholder" = "الموقع";
+
+/* Class = "UILabel"; text = "Kind"; ObjectID = "YP6-r9-4ij"; */
+"YP6-r9-4ij.text" = "النوع";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "ySI-2q-7Kl"; */
+"ySI-2q-7Kl.text" = "التاريخ";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Z5C-fk-E1Z"; */
+"Z5C-fk-E1Z.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "اتعهد واقسم بالله انا المعلن ان ادفع عمولة الطبيق حسب قيمة السعلة في الجدول الملحق في حالة بيعها عن طريق التطبيق وحتي وان تكرر عدة مرات بيع السلعة"; ObjectID = "ZbP-7n-WUq"; */
+"ZbP-7n-WUq.text" = "اتعهد واقسم بالله انا المعلن ان ادفع عمولة الطبيق حسب قيمة السعلة في الجدول الملحق في حالة بيعها عن طريق التطبيق وحتي وان تكرر عدة مرات بيع السلعة";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "Zd8-fE-8nJ"; */
+"Zd8-fE-8nJ.text" = "التاريخ";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "ZhE-g9-YN5"; */
+"ZhE-g9-YN5.placeholder" = "الموضوع";
+
+/* Class = "UIButton"; normalTitle = "Terms A Conditions"; ObjectID = "zwL-IF-9SC"; */
+"zwL-IF-9SC.normalTitle" = "الشروط والأحكام";
+

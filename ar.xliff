@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Tadlaly/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body/>
+  </file>
+  <file original="Tadlaly/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body>
+      <trans-unit id="0C8-PF-tow.placeholder">
+        <source>E-mail</source>
+        <target>الإيميل</target>
+        <note>Class = "UITextField"; placeholder = "E-mail"; ObjectID = "0C8-PF-tow";</note>
+      </trans-unit>
+      <trans-unit id="0oh-8R-DyS.placeholder">
+        <source>City</source>
+        <target>المدينة</target>
+        <note>Class = "UITextField"; placeholder = "City"; ObjectID = "0oh-8R-DyS";</note>
+      </trans-unit>
+      <trans-unit id="1L1-Lw-IWu.text">
+        <source>Time</source>
+        <target>الوقت</target>
+        <note>Class = "UILabel"; text = "Time"; ObjectID = "1L1-Lw-IWu";</note>
+      </trans-unit>
+      <trans-unit id="1SM-nX-7nl.text">
+        <source> بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</source>
+        <target> بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</target>
+        <note>Class = "UILabel"; text = " بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"; ObjectID = "1SM-nX-7nl";</note>
+      </trans-unit>
+      <trans-unit id="1fe-f4-KS3.placeholder">
+        <source>E-mail</source>
+        <target>الإيميل</target>
+        <note>Class = "UITextField"; placeholder = "E-mail"; ObjectID = "1fe-f4-KS3";</note>
+      </trans-unit>
+      <trans-unit id="2ai-va-rIQ.placeholder">
+        <source>(+Country key)phone</source>
+        <target>(+كودالدولة)رقم الجوال</target>
+        <note>Class = "UITextField"; placeholder = "(+Country key)phone"; ObjectID = "2ai-va-rIQ";</note>
+      </trans-unit>
+      <trans-unit id="4ME-KC-PTL.normalTitle">
+        <source>Create A New Account</source>
+        <target>انشاء حساب جديد</target>
+        <note>Class = "UIButton"; normalTitle = "Create A New Account"; ObjectID = "4ME-KC-PTL";</note>
+      </trans-unit>
+      <trans-unit id="4N4-h9-6nz.text">
+        <source>City</source>
+        <target>المدينة</target>
+        <note>Class = "UILabel"; text = "City"; ObjectID = "4N4-h9-6nz";</note>
+      </trans-unit>
+      <trans-unit id="5FH-lI-dXp.text">
+        <source>Max 6 images.Scroll to load more photos</source>
+        <target>الحد الأقصي ٦ صور .قم بالسحب للمزيد</target>
+        <note>Class = "UILabel"; text = "Max 6 images.Scroll to load more photos"; ObjectID = "5FH-lI-dXp";</note>
+      </trans-unit>
+      <trans-unit id="7Mg-ll-kXN.text">
+        <source>city</source>
+        <target>المدينة</target>
+        <note>Class = "UILabel"; text = "city"; ObjectID = "7Mg-ll-kXN";</note>
+      </trans-unit>
+      <trans-unit id="7nT-Gu-pNz.text">
+        <source>Undefined</source>
+        <target>غير مغروف</target>
+        <note>Class = "UILabel"; text = "Undefined"; ObjectID = "7nT-Gu-pNz";</note>
+      </trans-unit>
+      <trans-unit id="9Rm-MH-Q5X.text">
+        <source>date</source>
+        <target>التاريخ</target>
+        <note>Class = "UILabel"; text = "date"; ObjectID = "9Rm-MH-Q5X";</note>
+      </trans-unit>
+      <trans-unit id="9y7-bZ-DJM.placeholder">
+        <source>Username</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UITextField"; placeholder = "Username"; ObjectID = "9y7-bZ-DJM";</note>
+      </trans-unit>
+      <trans-unit id="ASa-4K-NfB.text">
+        <source>UserName</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UILabel"; text = "UserName"; ObjectID = "ASa-4K-NfB";</note>
+      </trans-unit>
+      <trans-unit id="ATp-n0-Wbh.title">
+        <source>Home</source>
+        <target>الصفحه الرئيسية</target>
+        <note>Class = "UINavigationItem"; title = "Home"; ObjectID = "ATp-n0-Wbh";</note>
+      </trans-unit>
+      <trans-unit id="CcM-Cn-N3V.text">
+        <source>Password</source>
+        <target>الرقم السري</target>
+        <note>Class = "UILabel"; text = "Password"; ObjectID = "CcM-Cn-N3V";</note>
+      </trans-unit>
+      <trans-unit id="Cem-L9-F4H.text">
+        <source>صدق اللَّهُ العظيم</source>
+        <target>صدق اللَّهُ العظيم</target>
+        <note>Class = "UILabel"; text = "صدق اللَّهُ العظيم"; ObjectID = "Cem-L9-F4H";</note>
+      </trans-unit>
+      <trans-unit id="D9J-Wo-3ac.normalTitle">
+        <source>Aprove the terms and condtions</source>
+        <target>الموافقه علي الشروط والأحكام</target>
+        <note>Class = "UIButton"; normalTitle = "Aprove the terms and condtions"; ObjectID = "D9J-Wo-3ac";</note>
+      </trans-unit>
+      <trans-unit id="DHG-M7-vN0.text">
+        <source>Undefined</source>
+        <target>غير معروف</target>
+        <note>Class = "UILabel"; text = "Undefined"; ObjectID = "DHG-M7-vN0";</note>
+      </trans-unit>
+      <trans-unit id="DLQ-mD-gyl.normalTitle">
+        <source>Create account</source>
+        <target>انشاء حساب</target>
+        <note>Class = "UIButton"; normalTitle = "Create account"; ObjectID = "DLQ-mD-gyl";</note>
+      </trans-unit>
+      <trans-unit id="Dcn-gm-QSN.placeholder">
+        <source>UserName</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UITextField"; placeholder = "UserName"; ObjectID = "Dcn-gm-QSN";</note>
+      </trans-unit>
+      <trans-unit id="Do8-lF-ISr.segmentTitles[0]">
+        <source>Current</source>
+        <target>الحاليه</target>
+        <note>Class = "UISegmentedControl"; Do8-lF-ISr.segmentTitles[0] = "Current"; ObjectID = "Do8-lF-ISr";</note>
+      </trans-unit>
+      <trans-unit id="Do8-lF-ISr.segmentTitles[1]">
+        <source>Last</source>
+        <target>السابقه</target>
+        <note>Class = "UISegmentedControl"; Do8-lF-ISr.segmentTitles[1] = "Last"; ObjectID = "Do8-lF-ISr";</note>
+      </trans-unit>
+      <trans-unit id="EAI-oh-uIe.text">
+        <source>Delet!</source>
+        <target>حذف!</target>
+        <note>Class = "UILabel"; text = "Delet!"; ObjectID = "EAI-oh-uIe";</note>
+      </trans-unit>
+      <trans-unit id="EJY-Rc-WBG.text">
+        <source>Connect by app only(mobile number not shown to customers</source>
+        <target>التواصل عن طريق التطبيق فقط(رقم الجوال لا يظهر للعملاء)</target>
+        <note>Class = "UILabel"; text = "Connect by app only(mobile number not shown to customers"; ObjectID = "EJY-Rc-WBG";</note>
+      </trans-unit>
+      <trans-unit id="GS2-Tk-c5h.segmentTitles[0]">
+        <source>Disagree</source>
+        <target>غير موافق</target>
+        <note>Class = "UISegmentedControl"; GS2-Tk-c5h.segmentTitles[0] = "Disagree"; ObjectID = "GS2-Tk-c5h";</note>
+      </trans-unit>
+      <trans-unit id="GS2-Tk-c5h.segmentTitles[1]">
+        <source>Agree</source>
+        <target>موافق</target>
+        <note>Class = "UISegmentedControl"; GS2-Tk-c5h.segmentTitles[1] = "Agree"; ObjectID = "GS2-Tk-c5h";</note>
+      </trans-unit>
+      <trans-unit id="Gyr-bv-lds.title">
+        <source>Share</source>
+        <target>مشاركة</target>
+        <note>Class = "UITabBarItem"; title = "Share"; ObjectID = "Gyr-bv-lds";</note>
+      </trans-unit>
+      <trans-unit id="Ia2-GO-A3j.segmentTitles[0]">
+        <source>Disagree</source>
+        <target>غير موافق</target>
+        <note>Class = "UISegmentedControl"; Ia2-GO-A3j.segmentTitles[0] = "Disagree"; ObjectID = "Ia2-GO-A3j";</note>
+      </trans-unit>
+      <trans-unit id="Ia2-GO-A3j.segmentTitles[1]">
+        <source>Agree</source>
+        <target>موافق</target>
+        <note>Class = "UISegmentedControl"; Ia2-GO-A3j.segmentTitles[1] = "Agree"; ObjectID = "Ia2-GO-A3j";</note>
+      </trans-unit>
+      <trans-unit id="IaQ-hY-QFe.text">
+        <source>الجمعيه الخيرية لرعاية الايتام إخاء</source>
+        <target>الجمعيه الخيرية لرعاية الايتام إخاء</target>
+        <note>Class = "UILabel"; text = "الجمعيه الخيرية لرعاية الايتام إخاء"; ObjectID = "IaQ-hY-QFe";</note>
+      </trans-unit>
+      <trans-unit id="Ilf-cl-YWr.normalTitle">
+        <source>Send</source>
+        <target>إرسال</target>
+        <note>Class = "UIButton"; normalTitle = "Send"; ObjectID = "Ilf-cl-YWr";</note>
+      </trans-unit>
+      <trans-unit id="JWv-v2-2te.text">
+        <source>time</source>
+        <target>الوقت</target>
+        <note>Class = "UILabel"; text = "time"; ObjectID = "JWv-v2-2te";</note>
+      </trans-unit>
+      <trans-unit id="JZr-k4-d3W.text">
+        <source>name</source>
+        <target>الاسم</target>
+        <note>Class = "UILabel"; text = "name"; ObjectID = "JZr-k4-d3W";</note>
+      </trans-unit>
+      <trans-unit id="Jp8-zK-KA4.placeholder">
+        <source>Ad ID</source>
+        <target>كودالإعلان</target>
+        <note>Class = "UITextField"; placeholder = "Ad ID"; ObjectID = "Jp8-zK-KA4";</note>
+      </trans-unit>
+      <trans-unit id="KAG-F9-ccN.title">
+        <source>Chat</source>
+        <target>محادثة</target>
+        <note>Class = "UITabBarItem"; title = "Chat"; ObjectID = "KAG-F9-ccN";</note>
+      </trans-unit>
+      <trans-unit id="KXV-Uu-Qa0.normalTitle">
+        <source>Near Ads</source>
+        <target>حسب الأقرب</target>
+        <note>Class = "UIButton"; normalTitle = "Near Ads"; ObjectID = "KXV-Uu-Qa0";</note>
+      </trans-unit>
+      <trans-unit id="KYB-tn-jjf.title">
+        <source>Home</source>
+        <target>الصفحة الرئيسية</target>
+        <note>Class = "UITabBarItem"; title = "Home"; ObjectID = "KYB-tn-jjf";</note>
+      </trans-unit>
+      <trans-unit id="LP3-0A-vGQ.normalTitle">
+        <source>Done</source>
+        <target>اتمام</target>
+        <note>Class = "UIButton"; normalTitle = "Done"; ObjectID = "LP3-0A-vGQ";</note>
+      </trans-unit>
+      <trans-unit id="Lqp-zV-JN3.text">
+        <source>title</source>
+        <target>العنوان</target>
+        <note>Class = "UILabel"; text = "title"; ObjectID = "Lqp-zV-JN3";</note>
+      </trans-unit>
+      <trans-unit id="Mh2-rH-HyB.placeholder">
+        <source>City</source>
+        <target>المدينة</target>
+        <note>Class = "UITextField"; placeholder = "City"; ObjectID = "Mh2-rH-HyB";</note>
+      </trans-unit>
+      <trans-unit id="Mja-Le-kUq.title">
+        <source>Whatsapp</source>
+        <target>الواتس اب</target>
+        <note>Class = "UITabBarItem"; title = "Whatsapp"; ObjectID = "Mja-Le-kUq";</note>
+      </trans-unit>
+      <trans-unit id="Mld-VY-Sb3.placeholder">
+        <source>Ad title</source>
+        <target>عنوان الأعلان</target>
+        <note>Class = "UITextField"; placeholder = "Ad title"; ObjectID = "Mld-VY-Sb3";</note>
+      </trans-unit>
+      <trans-unit id="Mls-Ft-IqH.normalTitle">
+        <source>Connect through E-mail</source>
+        <target>تواصل علي الإيميل</target>
+        <note>Class = "UIButton"; normalTitle = "Connect through E-mail"; ObjectID = "Mls-Ft-IqH";</note>
+      </trans-unit>
+      <trans-unit id="Mr5-eg-ECH.text">
+        <source>Connect by app only(mobile number not shown to customers</source>
+        <target>تواصل عن طريق التطبيق(رقم الجوال لا يظهر للعملاء)</target>
+        <note>Class = "UILabel"; text = "Connect by app only(mobile number not shown to customers"; ObjectID = "Mr5-eg-ECH";</note>
+      </trans-unit>
+      <trans-unit id="N4a-gf-RHQ.text">
+        <source>distance</source>
+        <target>المسافة</target>
+        <note>Class = "UILabel"; text = "distance"; ObjectID = "N4a-gf-RHQ";</note>
+      </trans-unit>
+      <trans-unit id="Nk0-AS-q98.placeholder">
+        <source>Re-password</source>
+        <target>اعاده للرقم السري</target>
+        <note>Class = "UITextField"; placeholder = "Re-password"; ObjectID = "Nk0-AS-q98";</note>
+      </trans-unit>
+      <trans-unit id="O8m-Fe-dcS.text">
+        <source>Message</source>
+        <target>الرسالة</target>
+        <note>Class = "UILabel"; text = "Message"; ObjectID = "O8m-Fe-dcS";</note>
+      </trans-unit>
+      <trans-unit id="OJy-Dq-qnt.normalTitle">
+        <source>Arabic</source>
+        <target>اللغة العربية</target>
+        <note>Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "OJy-Dq-qnt";</note>
+      </trans-unit>
+      <trans-unit id="Occ-qT-mZ4.normalTitle">
+        <source>Connect through whatsapp</source>
+        <target>تواصل علي الواتس اب</target>
+        <note>Class = "UIButton"; normalTitle = "Connect through whatsapp"; ObjectID = "Occ-qT-mZ4";</note>
+      </trans-unit>
+      <trans-unit id="OkD-lP-r3n.text">
+        <source>msgContent</source>
+        <target>محتوي الرسالة</target>
+        <note>Class = "UILabel"; text = "msgContent"; ObjectID = "OkD-lP-r3n";</note>
+      </trans-unit>
+      <trans-unit id="P8s-8r-G0s.placeholder">
+        <source>Password</source>
+        <target>الرقم السري</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "P8s-8r-G0s";</note>
+      </trans-unit>
+      <trans-unit id="PAL-LM-a5H.text">
+        <source>messageContent</source>
+        <target>محتوي الرسالة</target>
+        <note>Class = "UILabel"; text = "messageContent"; ObjectID = "PAL-LM-a5H";</note>
+      </trans-unit>
+      <trans-unit id="PMe-AI-bOf.normalTitle">
+        <source>Messages</source>
+        <target>الرسائل</target>
+        <note>Class = "UIButton"; normalTitle = "Messages"; ObjectID = "PMe-AI-bOf";</note>
+      </trans-unit>
+      <trans-unit id="PN2-lj-y0j.text">
+        <source>price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "price"; ObjectID = "PN2-lj-y0j";</note>
+      </trans-unit>
+      <trans-unit id="PVn-2T-fY5.text">
+        <source>UserName</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UILabel"; text = "UserName"; ObjectID = "PVn-2T-fY5";</note>
+      </trans-unit>
+      <trans-unit id="PWS-rk-Z93.normalTitle">
+        <source>Home</source>
+        <target>الصفحة الرئيسية</target>
+        <note>Class = "UIButton"; normalTitle = "Home"; ObjectID = "PWS-rk-Z93";</note>
+      </trans-unit>
+      <trans-unit id="Pvc-zM-FTH.title">
+        <source>Call</source>
+        <target>اتصال</target>
+        <note>Class = "UITabBarItem"; title = "Call"; ObjectID = "Pvc-zM-FTH";</note>
+      </trans-unit>
+      <trans-unit id="Q4C-OM-ObH.text">
+        <source>price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "price"; ObjectID = "Q4C-OM-ObH";</note>
+      </trans-unit>
+      <trans-unit id="Q8s-x2-mAY.text">
+        <source>Login</source>
+        <target>تسجيل الدخول</target>
+        <note>Class = "UILabel"; text = "Login"; ObjectID = "Q8s-x2-mAY";</note>
+      </trans-unit>
+      <trans-unit id="QF1-PD-Rmm.placeholder">
+        <source>Name</source>
+        <target>الاسم</target>
+        <note>Class = "UITextField"; placeholder = "Name"; ObjectID = "QF1-PD-Rmm";</note>
+      </trans-unit>
+      <trans-unit id="QFk-7O-p7X.normalTitle">
+        <source>My Ads</source>
+        <target>إعلانتي</target>
+        <note>Class = "UIButton"; normalTitle = "My Ads"; ObjectID = "QFk-7O-p7X";</note>
+      </trans-unit>
+      <trans-unit id="QR7-xn-fLT.normalTitle">
+        <source>Update</source>
+        <target>تحديث</target>
+        <note>Class = "UIButton"; normalTitle = "Update"; ObjectID = "QR7-xn-fLT";</note>
+      </trans-unit>
+      <trans-unit id="Qhe-F8-ZFf.normalTitle">
+        <source>Login</source>
+        <target>تسجيل الدخول</target>
+        <note>Class = "UIButton"; normalTitle = "Login"; ObjectID = "Qhe-F8-ZFf";</note>
+      </trans-unit>
+      <trans-unit id="SSU-jN-pSg.text">
+        <source>  Recover your account.We will send you a link to change your password</source>
+        <target> استعادة الحساب.سوف نقوم بإرسال رابط لتغير الباسورد</target>
+        <note>Class = "UILabel"; text = "  Recover your account.We will send you a link to change yout password"; ObjectID = "SSU-jN-pSg";</note>
+      </trans-unit>
+      <trans-unit id="T0T-3F-yVq.text">
+        <source>Transfer Date</source>
+        <target>ميعاد التحويل</target>
+        <note>Class = "UILabel"; text = "Transfer Date"; ObjectID = "T0T-3F-yVq";</note>
+      </trans-unit>
+      <trans-unit id="TOB-WK-cTc.normalTitle">
+        <source>Login</source>
+        <target>تسجيل الدخول</target>
+        <note>Class = "UIButton"; normalTitle = "Login"; ObjectID = "TOB-WK-cTc";</note>
+      </trans-unit>
+      <trans-unit id="Tg8-dk-RiO.normalTitle">
+        <source>Send</source>
+        <target>إرسال</target>
+        <note>Class = "UIButton"; normalTitle = "Send"; ObjectID = "Tg8-dk-RiO";</note>
+      </trans-unit>
+      <trans-unit id="Ubw-TM-tAO.placeholder">
+        <source>password</source>
+        <target>الرقم السري</target>
+        <note>Class = "UITextField"; placeholder = "password"; ObjectID = "Ubw-TM-tAO";</note>
+      </trans-unit>
+      <trans-unit id="UiU-W2-eMX.normalTitle">
+        <source>Create a new account</source>
+        <target>انشد حساب جديد</target>
+        <note>Class = "UIButton"; normalTitle = "Create a new account"; ObjectID = "UiU-W2-eMX";</note>
+      </trans-unit>
+      <trans-unit id="Uq4-io-wjk.placeholder">
+        <source>(+Country Key)Phone</source>
+        <target>(+كود الدولة)رقم الجوال</target>
+        <note>Class = "UITextField"; placeholder = "(+Country Key)Phone"; ObjectID = "Uq4-io-wjk";</note>
+      </trans-unit>
+      <trans-unit id="V3w-8l-0a0.text">
+        <source>kind</source>
+        <target>النوع</target>
+        <note>Class = "UILabel"; text = "kind"; ObjectID = "V3w-8l-0a0";</note>
+      </trans-unit>
+      <trans-unit id="VvG-gr-rfX.text">
+        <source>Max 6 images.Scroll to load more photos</source>
+        <target>الحد الأقصي ٦ صور.اسحب للمزيد</target>
+        <note>Class = "UILabel"; text = "Max 6 images.Scroll to load more photos"; ObjectID = "VvG-gr-rfX";</note>
+      </trans-unit>
+      <trans-unit id="W8X-ck-mAT.placeholder">
+        <source>Name</source>
+        <target>الأسم</target>
+        <note>Class = "UITextField"; placeholder = "Name"; ObjectID = "W8X-ck-mAT";</note>
+      </trans-unit>
+      <trans-unit id="WHm-Sp-XVZ.text">
+        <source>Add photo</source>
+        <target>اضافه صورة</target>
+        <note>Class = "UILabel"; text = "Add photo"; ObjectID = "WHm-Sp-XVZ";</note>
+      </trans-unit>
+      <trans-unit id="WVg-mK-Fu1.placeholder">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UITextField"; placeholder = "Price"; ObjectID = "WVg-mK-Fu1";</note>
+      </trans-unit>
+      <trans-unit id="XxS-D6-uGO.normalTitle">
+        <source>Send</source>
+        <target>إرسال</target>
+        <note>Class = "UIButton"; normalTitle = "Send"; ObjectID = "XxS-D6-uGO";</note>
+      </trans-unit>
+      <trans-unit id="Xz9-V0-T0o.text">
+        <source>  ملاحظه :</source>
+        <target>  ملاحظه :</target>
+        <note>Class = "UILabel"; text = "  ملاحظه :"; ObjectID = "Xz9-V0-T0o";</note>
+      </trans-unit>
+      <trans-unit id="YP6-r9-4ij.text">
+        <source>Kind</source>
+        <target>النوع</target>
+        <note>Class = "UILabel"; text = "Kind"; ObjectID = "YP6-r9-4ij";</note>
+      </trans-unit>
+      <trans-unit id="Z5C-fk-E1Z.normalTitle">
+        <source>Next</source>
+        <target>التالي</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "Z5C-fk-E1Z";</note>
+      </trans-unit>
+      <trans-unit id="ZCf-fu-bP2.text">
+        <source>subDep</source>
+        <target>اسم الفرع</target>
+        <note>Class = "UILabel"; text = "subDep"; ObjectID = "ZCf-fu-bP2";</note>
+      </trans-unit>
+      <trans-unit id="ZbP-7n-WUq.text">
+        <source>اتعهد واقسم بالله انا المعلن ان ادفع عمولة الطبيق حسب قيمة السعلة في الجدول الملحق في حالة بيعها عن طريق التطبيق وحتي وان تكرر عدة مرات بيع السلعة</source>
+        <target>اتعهد واقسم بالله انا المعلن ان ادفع عمولة الطبيق حسب قيمة السعلة في الجدول الملحق في حالة بيعها عن طريق التطبيق وحتي وان تكرر عدة مرات بيع السلعة</target>
+        <note>Class = "UILabel"; text = "اتعهد واقسم بالله انا المعلن ان ادفع عمولة الطبيق حسب قيمة السعلة في الجدول الملحق في حالة بيعها عن طريق التطبيق وحتي وان تكرر عدة مرات بيع السلعة"; ObjectID = "ZbP-7n-WUq";</note>
+      </trans-unit>
+      <trans-unit id="Zd8-fE-8nJ.text">
+        <source>date</source>
+        <target>التاريخ</target>
+        <note>Class = "UILabel"; text = "date"; ObjectID = "Zd8-fE-8nJ";</note>
+      </trans-unit>
+      <trans-unit id="ZhE-g9-YN5.placeholder">
+        <source>Subject</source>
+        <target>الموضوع</target>
+        <note>Class = "UITextField"; placeholder = "Subject"; ObjectID = "ZhE-g9-YN5";</note>
+      </trans-unit>
+      <trans-unit id="aHg-92-d7b.text">
+        <source>Title</source>
+        <target>العنوان</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "aHg-92-d7b";</note>
+      </trans-unit>
+      <trans-unit id="aKl-4V-zea.normalTitle">
+        <source>Add Ad</source>
+        <target>اضافة اعلان</target>
+        <note>Class = "UIButton"; normalTitle = "Add Ad"; ObjectID = "aKl-4V-zea";</note>
+      </trans-unit>
+      <trans-unit id="aeH-H2-VZl.text">
+        <source>SubName</source>
+        <target>اسم الفرع</target>
+        <note>Class = "UILabel"; text = "SubName"; ObjectID = "aeH-H2-VZl";</note>
+      </trans-unit>
+      <trans-unit id="b8T-2e-7bu.text">
+        <source>عموله التطبيق علي المعلن</source>
+        <target>عموله التطبيق علي المعلن</target>
+        <note>Class = "UILabel"; text = "عموله التطبيق علي المعلن"; ObjectID = "b8T-2e-7bu";</note>
+      </trans-unit>
+      <trans-unit id="bgd-vx-3h5.title">
+        <source>Profile</source>
+        <target>الصفحة الشخصية</target>
+        <note>Class = "UINavigationItem"; title = "Profile"; ObjectID = "bgd-vx-3h5";</note>
+      </trans-unit>
+      <trans-unit id="cge-g7-woJ.normalTitle">
+        <source>(الاتفاقية)</source>
+        <target>(الاتفاقية)</target>
+        <note>Class = "UIButton"; normalTitle = "(الاتفاقية)"; ObjectID = "cge-g7-woJ";</note>
+      </trans-unit>
+      <trans-unit id="d8n-sC-WgM.normalTitle">
+        <source> Fresh Ads</source>
+        <target>الأحدث</target>
+        <note>Class = "UIButton"; normalTitle = " Fresh Ads"; ObjectID = "d8n-sC-WgM";</note>
+      </trans-unit>
+      <trans-unit id="dEy-5E-zr0.text">
+        <source>10 % من الإيرادات </source>
+        <target>10 % من الإيرادات </target>
+        <note>Class = "UILabel"; text = "10 % من الإيرادات "; ObjectID = "dEy-5E-zr0";</note>
+      </trans-unit>
+      <trans-unit id="dOX-pR-CkM.title">
+        <source>All</source>
+        <target>الكل</target>
+        <note>Class = "UITabBarItem"; title = "All"; ObjectID = "dOX-pR-CkM";</note>
+      </trans-unit>
+      <trans-unit id="dT6-nZ-CZC.normalTitle">
+        <source>Contact US</source>
+        <target> تواصل معنا</target>
+        <note>Class = "UIButton"; normalTitle = "Contact US"; ObjectID = "dT6-nZ-CZC";</note>
+      </trans-unit>
+      <trans-unit id="fSr-r7-Pum.text">
+        <source>Kind</source>
+        <target>النوع</target>
+        <note>Class = "UILabel"; text = "Kind"; ObjectID = "fSr-r7-Pum";</note>
+      </trans-unit>
+      <trans-unit id="fjM-us-bca.segmentTitles[0]">
+        <source>Disagree</source>
+        <target>غير موافق</target>
+        <note>Class = "UISegmentedControl"; fjM-us-bca.segmentTitles[0] = "Disagree"; ObjectID = "fjM-us-bca";</note>
+      </trans-unit>
+      <trans-unit id="fjM-us-bca.segmentTitles[1]">
+        <source>Agree</source>
+        <target>موافق</target>
+        <note>Class = "UISegmentedControl"; fjM-us-bca.segmentTitles[1] = "Agree"; ObjectID = "fjM-us-bca";</note>
+      </trans-unit>
+      <trans-unit id="gfQ-Ta-uy1.text">
+        <source>Ad Content</source>
+        <target>تفاصيل الإعلان</target>
+        <note>Class = "UILabel"; text = "Ad Content"; ObjectID = "gfQ-Ta-uy1";</note>
+      </trans-unit>
+      <trans-unit id="gh2-cc-mwd.placeholder">
+        <source>City</source>
+        <target>المدينه</target>
+        <note>Class = "UITextField"; placeholder = "City"; ObjectID = "gh2-cc-mwd";</note>
+      </trans-unit>
+      <trans-unit id="gsH-dB-Exo.text">
+        <source>Don"t sell anymore</source>
+        <target>لا ارغب بالبيع</target>
+        <note>Class = "UILabel"; text = "Don\"t sell anymore"; ObjectID = "gsH-dB-Exo";</note>
+      </trans-unit>
+      <trans-unit id="gvy-5B-oqg.text">
+        <source>Sold item</source>
+        <target>تم البيع</target>
+        <note>Class = "UILabel"; text = "Sold item"; ObjectID = "gvy-5B-oqg";</note>
+      </trans-unit>
+      <trans-unit id="h3X-oe-Vn9.normalTitle">
+        <source>About </source>
+        <target>عن التطبيق </target>
+        <note>Class = "UIButton"; normalTitle = "About "; ObjectID = "h3X-oe-Vn9";</note>
+      </trans-unit>
+      <trans-unit id="hAJ-zl-crq.text">
+        <source>Kind</source>
+        <target>النوع</target>
+        <note>Class = "UILabel"; text = "Kind"; ObjectID = "hAJ-zl-crq";</note>
+      </trans-unit>
+      <trans-unit id="hBe-vl-SLL.placeholder">
+        <source>(+country key)Phone</source>
+        <target>(+كود الدولة)رقم الجوال</target>
+        <note>Class = "UITextField"; placeholder = "(+country key)Phone"; ObjectID = "hBe-vl-SLL";</note>
+      </trans-unit>
+      <trans-unit id="hBn-dV-SOY.normalTitle">
+        <source>My Account</source>
+        <target>حسابي</target>
+        <note>Class = "UIButton"; normalTitle = "My Account"; ObjectID = "hBn-dV-SOY";</note>
+      </trans-unit>
+      <trans-unit id="hId-wE-3C3.text">
+        <source>City</source>
+        <target>المدينة</target>
+        <note>Class = "UILabel"; text = "City"; ObjectID = "hId-wE-3C3";</note>
+      </trans-unit>
+      <trans-unit id="hKE-hE-eqw.text">
+        <source>city</source>
+        <target>المدينة</target>
+        <note>Class = "UILabel"; text = "city"; ObjectID = "hKE-hE-eqw";</note>
+      </trans-unit>
+      <trans-unit id="hOd-e2-M4l.text">
+        <source>Attach a copy of the money transfer</source>
+        <target>ارفاق صوره من التحويل</target>
+        <note>Class = "UILabel"; text = "Attach a copy of the money transfer"; ObjectID = "hOd-e2-M4l";</note>
+      </trans-unit>
+      <trans-unit id="hUD-io-yH3.normalTitle">
+        <source>Cancel</source>
+        <target>الغاء</target>
+        <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hUD-io-yH3";</note>
+      </trans-unit>
+      <trans-unit id="hcR-V6-Hnt.text">
+        <source>اتعهد أنا المعلن أن اقوم بدفع العمولة خلال اقل من 5 ايام من تاريخ استلام المبلغ كامل</source>
+        <target>اتعهد أنا المعلن أن اقوم بدفع العمولة خلال اقل من 5 ايام من تاريخ استلام المبلغ كامل</target>
+        <note>Class = "UILabel"; text = "اتعهد أنا المعلن أن اقوم بدفع العمولة خلال اقل من 5 ايام من تاريخ استلام المبلغ كامل"; ObjectID = "hcR-V6-Hnt";</note>
+      </trans-unit>
+      <trans-unit id="hpC-rd-KvQ.title">
+        <source>Share</source>
+        <target>مشاركه</target>
+        <note>Class = "UITabBarItem"; title = "Share"; ObjectID = "hpC-rd-KvQ";</note>
+      </trans-unit>
+      <trans-unit id="hxY-TL-Tjz.text">
+        <source>Ad Content</source>
+        <target>تفاصيل الإعلان</target>
+        <note>Class = "UILabel"; text = "Ad Content"; ObjectID = "hxY-TL-Tjz";</note>
+      </trans-unit>
+      <trans-unit id="i9o-1w-ySZ.text">
+        <source>The Bank That Has Been Transferred</source>
+        <target>البنك المرادالتحويل عليه</target>
+        <note>Class = "UILabel"; text = "The Bank That Has Been Transferred"; ObjectID = "i9o-1w-ySZ";</note>
+      </trans-unit>
+      <trans-unit id="iBH-cH-Kjp.text">
+        <source>dep</source>
+        <target>الفرع</target>
+        <note>Class = "UILabel"; text = "dep"; ObjectID = "iBH-cH-Kjp";</note>
+      </trans-unit>
+      <trans-unit id="ilY-Vj-O6o.text">
+        <source>distance</source>
+        <target>المسافة</target>
+        <note>Class = "UILabel"; text = "distance"; ObjectID = "ilY-Vj-O6o";</note>
+      </trans-unit>
+      <trans-unit id="ip8-3c-fFS.text">
+        <source>since</source>
+        <target>قبل</target>
+        <note>Class = "UILabel"; text = "since"; ObjectID = "ip8-3c-fFS";</note>
+      </trans-unit>
+      <trans-unit id="isS-4a-5BM.text">
+        <source>قَالَ اللَّهُ تَعَالَى</source>
+        <target>قَالَ اللَّهُ تَعَالَى</target>
+        <note>Class = "UILabel"; text = "قَالَ اللَّهُ تَعَالَى"; ObjectID = "isS-4a-5BM";</note>
+      </trans-unit>
+      <trans-unit id="itN-tC-aoG.normalTitle">
+        <source>name</source>
+        <target>الاسم</target>
+        <note>Class = "UIButton"; normalTitle = "name"; ObjectID = "itN-tC-aoG";</note>
+      </trans-unit>
+      <trans-unit id="jF8-1R-zEf.text">
+        <source>date</source>
+        <target>التاريخ</target>
+        <note>Class = "UILabel"; text = "date"; ObjectID = "jF8-1R-zEf";</note>
+      </trans-unit>
+      <trans-unit id="jHG-xK-rM6.text">
+        <source>TDLLY.COM</source>
+        <target>TDLLY.COM</target>
+        <note>Class = "UILabel"; text = "TDLLY.COM"; ObjectID = "jHG-xK-rM6";</note>
+      </trans-unit>
+      <trans-unit id="jOT-So-dGO.normalTitle">
+        <source>Rest Password</source>
+        <target>استعادة الرقم السري</target>
+        <note>Class = "UIButton"; normalTitle = "Rest Password"; ObjectID = "jOT-So-dGO";</note>
+      </trans-unit>
+      <trans-unit id="k0S-KY-L7d.text">
+        <source>since</source>
+        <target>قبل</target>
+        <note>Class = "UILabel"; text = "since"; ObjectID = "k0S-KY-L7d";</note>
+      </trans-unit>
+      <trans-unit id="lH0-Ey-Xbm.text">
+        <source>(+Country key)phone</source>
+        <target>(+كود الدولة)رقم الجوال</target>
+        <note>Class = "UILabel"; text = "(+Country key)phone"; ObjectID = "lH0-Ey-Xbm";</note>
+      </trans-unit>
+      <trans-unit id="lPC-fq-bJf.placeholder">
+        <source>Search</source>
+        <target>بحث</target>
+        <note>Class = "UITextField"; placeholder = "Search"; ObjectID = "lPC-fq-bJf";</note>
+      </trans-unit>
+      <trans-unit id="lVK-q6-beU.placeholder">
+        <source>(+Country Code)phone</source>
+        <target>(+كود الدولة)رقم الجوال</target>
+        <note>Class = "UITextField"; placeholder = "(+Country Code)phone"; ObjectID = "lVK-q6-beU";</note>
+      </trans-unit>
+      <trans-unit id="lpB-RY-Om6.text">
+        <source>ad code</source>
+        <target>كود الأعلان</target>
+        <note>Class = "UILabel"; text = "ad code"; ObjectID = "lpB-RY-Om6";</note>
+      </trans-unit>
+      <trans-unit id="mCB-FK-OX1.text">
+        <source>share</source>
+        <target>مشاركة</target>
+        <note>Class = "UILabel"; text = "share"; ObjectID = "mCB-FK-OX1";</note>
+      </trans-unit>
+      <trans-unit id="mtP-hO-mtg.placeholder">
+        <source>E-mail</source>
+        <target>الإيميل</target>
+        <note>Class = "UITextField"; placeholder = "E-mail"; ObjectID = "mtP-hO-mtg";</note>
+      </trans-unit>
+      <trans-unit id="nwl-6h-pRD.text">
+        <source> وَأَوْفُوا بِعَهْدِ اللَّهِ إِذَا عَاهَدتُّمْ وَلَا تَنقُضُوا الْأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلًا</source>
+        <target> وَأَوْفُوا بِعَهْدِ اللَّهِ إِذَا عَاهَدتُّمْ وَلَا تَنقُضُوا الْأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلًا</target>
+        <note>Class = "UILabel"; text = " وَأَوْفُوا بِعَهْدِ اللَّهِ إِذَا عَاهَدتُّمْ وَلَا تَنقُضُوا الْأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلًا"; ObjectID = "nwl-6h-pRD";</note>
+      </trans-unit>
+      <trans-unit id="oVC-J5-tw7.text">
+        <source>city</source>
+        <target>المدينة</target>
+        <note>Class = "UILabel"; text = "city"; ObjectID = "oVC-J5-tw7";</note>
+      </trans-unit>
+      <trans-unit id="oad-BB-42d.placeholder">
+        <source>Email address</source>
+        <target>عنوان البريد الالكتروني</target>
+        <note>Class = "UITextField"; placeholder = "Email address"; ObjectID = "oad-BB-42d";</note>
+      </trans-unit>
+      <trans-unit id="obS-ZG-Tdo.text">
+        <source>price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "price"; ObjectID = "obS-ZG-Tdo";</note>
+      </trans-unit>
+      <trans-unit id="oeK-mP-Dzf.text">
+        <source>userName</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UILabel"; text = "userName"; ObjectID = "oeK-mP-Dzf";</note>
+      </trans-unit>
+      <trans-unit id="p61-rf-kYW.normalTitle">
+        <source>Pay Commision</source>
+        <target>دفع العمولة</target>
+        <note>Class = "UIButton"; normalTitle = "Pay Commision"; ObjectID = "p61-rf-kYW";</note>
+      </trans-unit>
+      <trans-unit id="p66-ub-uuE.placeholder">
+        <source>Amount of commision</source>
+        <target>مبلغ العمولة</target>
+        <note>Class = "UITextField"; placeholder = "Amount of commision"; ObjectID = "p66-ub-uuE";</note>
+      </trans-unit>
+      <trans-unit id="pQp-XE-ppJ.normalTitle">
+        <source>forget your password ?</source>
+        <target>نسيت كلمة المرور؟</target>
+        <note>Class = "UIButton"; normalTitle = "forget your password ?"; ObjectID = "pQp-XE-ppJ";</note>
+      </trans-unit>
+      <trans-unit id="plD-MQ-ENu.text">
+        <source>price</source>
+        <target>السعر</target>
+        <note>Class = "UILabel"; text = "price"; ObjectID = "plD-MQ-ENu";</note>
+      </trans-unit>
+      <trans-unit id="pp5-8c-jnV.text">
+        <source>Name</source>
+        <target>الأسم</target>
+        <note>Class = "UILabel"; text = "Name"; ObjectID = "pp5-8c-jnV";</note>
+      </trans-unit>
+      <trans-unit id="q2O-dl-M9C.text">
+        <source>055 04 11 66 3</source>
+        <target>055 04 11 66 3</target>
+        <note>Class = "UILabel"; text = "055 04 11 66 3"; ObjectID = "q2O-dl-M9C";</note>
+      </trans-unit>
+      <trans-unit id="qQm-sI-59D.text">
+        <source>E-mail</source>
+        <target>الإيميل</target>
+        <note>Class = "UILabel"; text = "E-mail"; ObjectID = "qQm-sI-59D";</note>
+      </trans-unit>
+      <trans-unit id="qel-ZN-AI5.text">
+        <source>أتعهد انا المعلن أن جميع المعلومات التي سوف أذكرها بالاعلان صحيحة واتعهد ان الصور التي سوف يتم عرضها هي صور حديثة لنفس السلعة وليست لسعلة اخري مشابهة</source>
+        <target>أتعهد انا المعلن أن جميع المعلومات التي سوف أذكرها بالاعلان صحيحة واتعهد ان الصور التي سوف يتم عرضها هي صور حديثة لنفس السلعة وليست لسعلة اخري مشابهة</target>
+        <note>Class = "UILabel"; text = "أتعهد انا المعلن أن جميع المعلومات التي سوف أذكرها بالاعلان صحيحة واتعهد ان الصور التي سوف يتم عرضها هي صور حديثة لنفس السلعة وليست لسعلة اخري مشابهة"; ObjectID = "qel-ZN-AI5";</note>
+      </trans-unit>
+      <trans-unit id="qwz-vQ-4fq.text">
+        <source>distance</source>
+        <target>المسافة</target>
+        <note>Class = "UILabel"; text = "distance"; ObjectID = "qwz-vQ-4fq";</note>
+      </trans-unit>
+      <trans-unit id="r7q-Pq-Rza.placeholder">
+        <source>Ad title</source>
+        <target>عنوان الأعلان</target>
+        <note>Class = "UITextField"; placeholder = "Ad title"; ObjectID = "r7q-Pq-Rza";</note>
+      </trans-unit>
+      <trans-unit id="rEI-lE-8Me.text">
+        <source>Add photo</source>
+        <target>اضافة صور</target>
+        <note>Class = "UILabel"; text = "Add photo"; ObjectID = "rEI-lE-8Me";</note>
+      </trans-unit>
+      <trans-unit id="rRu-sb-tBj.text">
+        <source>Title</source>
+        <target>العنوان</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "rRu-sb-tBj";</note>
+      </trans-unit>
+      <trans-unit id="rop-ib-szR.text">
+        <source>ad title</source>
+        <target>عنوان الإعلان</target>
+        <note>Class = "UILabel"; text = "ad title"; ObjectID = "rop-ib-szR";</note>
+      </trans-unit>
+      <trans-unit id="sIE-6A-OWb.text">
+        <source>info@tdlly.com</source>
+        <target>info@tdlly.com</target>
+        <note>Class = "UILabel"; text = "info@tdlly.com"; ObjectID = "sIE-6A-OWb";</note>
+      </trans-unit>
+      <trans-unit id="tcE-qu-Vej.text">
+        <source>UserName</source>
+        <target>اسم المستخدم</target>
+        <note>Class = "UILabel"; text = "UserName"; ObjectID = "tcE-qu-Vej";</note>
+      </trans-unit>
+      <trans-unit id="uw0-Vc-t53.placeholder">
+        <source>Price</source>
+        <target>السعر</target>
+        <note>Class = "UITextField"; placeholder = "Price"; ObjectID = "uw0-Vc-t53";</note>
+      </trans-unit>
+      <trans-unit id="vhc-ve-ipD.normalTitle">
+        <source>Send</source>
+        <target>إرسال</target>
+        <note>Class = "UIButton"; normalTitle = "Send"; ObjectID = "vhc-ve-ipD";</note>
+      </trans-unit>
+      <trans-unit id="vte-Kv-45T.placeholder">
+        <source>Type a message......</source>
+        <target>كتابة رساله......</target>
+        <note>Class = "UITextField"; placeholder = "Type a message......"; ObjectID = "vte-Kv-45T";</note>
+      </trans-unit>
+      <trans-unit id="wrX-vn-1LE.normalTitle">
+        <source>Skip</source>
+        <target>تخطي</target>
+        <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "wrX-vn-1LE";</note>
+      </trans-unit>
+      <trans-unit id="yIU-4M-llv.text">
+        <source>Rules</source>
+        <target>القواعد</target>
+        <note>Class = "UILabel"; text = "Rules"; ObjectID = "yIU-4M-llv";</note>
+      </trans-unit>
+      <trans-unit id="yLW-6S-YYV.placeholder">
+        <source>Location</source>
+        <target>الموقع</target>
+        <note>Class = "UITextField"; placeholder = "Location"; ObjectID = "yLW-6S-YYV";</note>
+      </trans-unit>
+      <trans-unit id="ySI-2q-7Kl.text">
+        <source>date</source>
+        <target>التاريخ</target>
+        <note>Class = "UILabel"; text = "date"; ObjectID = "ySI-2q-7Kl";</note>
+      </trans-unit>
+      <trans-unit id="zwL-IF-9SC.normalTitle">
+        <source>Terms A Conditions</source>
+        <target>الشروط والأحكام</target>
+        <note>Class = "UIButton"; normalTitle = "Terms A Conditions"; ObjectID = "zwL-IF-9SC";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tadlaly/Info.plist" source-language="en" datatype="plaintext" target-language="ar">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.2" build-num="9C40b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="NSAppleMusicUsageDescription">
+        <source>We Need To Access To Libirary</source>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>We Need To Access To Camera</source>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysAndWhenInUseUsageDescription">
+        <source>We Need To Access To Your Location</source>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysUsageDescription">
+        <source>We Need To Access To Your Location</source>
+      </trans-unit>
+      <trans-unit id="NSLocationUsageDescription">
+        <source>We Need To Access To Your Location</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>We Need To Access To Your Location</source>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription">
+        <source>We Need To Access To Libirary</source>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription">
+        <source>We Need To Access To Libirary</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
