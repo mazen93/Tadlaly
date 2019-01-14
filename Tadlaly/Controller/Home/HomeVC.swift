@@ -18,11 +18,8 @@ import UPCarouselFlowLayout
 import Alamofire
 import SwiftyJSON
 
-//display arrayobject at sec Collection
 
-// show arrayobject dep depding at sub select at frist collectionView
-
-class HomeVC: UIViewController, UIScrollViewDelegate {
+class HomeVC: UIViewController, UIScrollViewDelegate, SWRevealViewControllerDelegate {
 
     @IBOutlet weak var cateCollectionView: UICollectionView!
     @IBOutlet weak var subCollectionView: UICollectionView!
@@ -37,28 +34,11 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var offerTitleLab: UILabel!
     @IBOutlet weak var offerContentLabel: UILabel!
  
-    @IBOutlet weak var menuCon: NSLayoutConstraint!
-    @IBOutlet weak var menuView: UIView!
-    @IBOutlet weak var proImg: UIImageView!
-    @IBOutlet weak var userNameLab: UILabel!
+   
     @IBOutlet weak var nxBtn: UIButton!
     @IBOutlet weak var prevsBtn: UIButton!
     
-    @IBOutlet weak var lanBtn: UIButton!
-    @IBOutlet weak var addBtn: UIButton!
-    @IBOutlet weak var hoBtn: UIButton!
-    @IBOutlet weak var loBtn: UIButton!
-    @IBOutlet weak var creaBtn: UIButton!
-    @IBOutlet weak var minBtn: UIButton!
-    @IBOutlet weak var myadBtn: UIButton!
-    @IBOutlet weak var msgbTn: UIButton!
-    @IBOutlet weak var pcBtn: UIButton!
-    @IBOutlet weak var csBtn: UIButton!
-    @IBOutlet weak var abBtn: UIButton!
-    @IBOutlet weak var terBtn: UIButton!
-    
-    
-    
+    @IBOutlet weak var menuBtn: UIBarButtonItem!
     
     fileprivate let tapSound = Bundle.main.url(forResource: "tap", withExtension: "wav")
     fileprivate var audioPlayer = AVAudioPlayer()
@@ -79,7 +59,7 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
       //var token = helper.getToken()
     
       var selectedSub = ""
-    var BRANCHNAME = ""
+      var BRANCHNAME = ""
 
 //    override func viewDidAppear(_ animated: Bool) {
 //        if helper.getUserData() == true {
@@ -93,42 +73,25 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
   
+        configSWrevealBtn()
+        
         LogInVC.shared.hudStart()
         self.title = General.stringForKey(key: "home")
         if let bar  = tabBar.items {
           bar[0].title = General.stringForKey(key: "share")
           bar[1].title = General.stringForKey(key: "all")
           bar[2].title = General.stringForKey(key: "search")
-
-       }
-        lanBtn.setTitle(General.stringForKey(key: "arabic"), for: .normal)
-        addBtn.setTitle(General.stringForKey(key: "add ad"), for: .normal)
-        hoBtn.setTitle(General.stringForKey(key: "home"), for: .normal)
-        loBtn.setTitle(General.stringForKey(key: "Login"), for: .normal)
-        creaBtn.setTitle(General.stringForKey(key: "Create a new account"), for: .normal)
-        minBtn.setTitle(General.stringForKey(key: "my account"), for: .normal)
-        myadBtn.setTitle(General.stringForKey(key: "my ads"), for: .normal)
-        msgbTn.setTitle(General.stringForKey(key: "messages"), for: .normal)
-        pcBtn.setTitle(General.stringForKey(key: "pay commission"), for: .normal)
-        csBtn.setTitle(General.stringForKey(key: "contact us"), for: .normal)
-        abBtn.setTitle(General.stringForKey(key: "about"), for: .normal)
-        terBtn.setTitle(General.stringForKey(key: "terms and condtions"), for: .normal)
-        userNameLab.text = General.stringForKey(key: "visitor")
+        }
         
         
-        //cateCollectionView.performBatchUpdates(nil, completion: nil)
         self.nxBtn.alpha = 0
         self.prevsBtn.alpha = 0
         
-        menuCon.constant = -250
-        self.menuView.layer.shadowOpacity = 1
-        self.menuView.layer.shadowRadius = 6
-        //self.menuView.layer.cornerRadius = 10.0
+       
         
         slid()
         sub()
         branches(id:"1")
-        userData()
         
         slider.corner()
         
@@ -246,126 +209,8 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
     }
     
     
-    
-    @IBAction func barMenu(_ sender: Any) {
-        self.menuCon.constant = 0
-        UIView.animate(withDuration: 0.3, animations: {
-            self.view.layoutIfNeeded()
-        })
-    }
-    
+
    
-
-    
-    @IBAction func sideMenuBtns(_ sender: UIButton) {
-        if sender.tag == 1 {
-            if helper.getUserData() == true {
-                API.logOut { (error: Error?, success: Bool?) in
-                    if success! {
-                  helper.deletUserDefaults()
-                    } else {
-                    self.AlertPopUP(title: "Connection weak!", message: "Please try again later")}
-                }
-            } else {
-              self.AlertPopUP(title: "Error!", message: "you have to logIn ")
-            }
-        } else if sender.tag == 2 {
-            
-            if General.CurrentLanguage() == "ar"
-            {
-                CheckLanguage.ChangeLanguage(NewLang: "en")
-            }else
-            {
-                CheckLanguage.ChangeLanguage(NewLang: "ar")
-            }
-            helper.restartApp()
-        } else if sender.tag == 3 {
-            if helper.getUserData() == false {
-                self.AlertPopUP(title: "Sorry☹️", message: "you need to be a user to open that page")
-            } else {
-                performSegue(withIdentifier: "uploadSegue", sender: self)
-            }
-        } else if sender.tag == 4 {
-            self.menuCon.constant = -250
-            UIView.animate(withDuration: 0.3, animations: {
-                self.view.layoutIfNeeded()
-            })
-        } else if sender.tag == 5 {
-            performSegue(withIdentifier: "d", sender: self)
-            //for login
-                 //let Sb: UIStoryboard = UIStoryboard(name: "main", bundle: nil)
-                   // let vc =   Sb.instantiateViewController(withIdentifier: "Main") as! LogInVC
-                    //self.navigationController?.pushViewController(vc, animated: true)
-           // self.present(vc, animated: true, completion: nil)
-        } else if sender.tag == 6 {
-           //for register
-            
-            
-            
-            
-            performSegue(withIdentifier: "toRegister", sender: self)
-            
-        } else if sender.tag == 7{
-            if helper.getUserData() == false {
-                //performSegue(withIdentifier: "profileSegue", sender: self)
-                self.AlertPopUP(title: "Sorry☹️", message: "you need to be a user to open that page")
-            } else {
-                performSegue(withIdentifier: "profileSegue", sender: self)
-            }
-        } else if sender.tag == 8 {
-            if helper.getUserData() == false {
-                //performSegue(withIdentifier: "myAdsSegue", sender: self)
-                self.AlertPopUP(title: "Sorry☹️", message: "you need to be a user to open that page")
-            }
-            else {
-                performSegue(withIdentifier: "myAdsSegue", sender: self)
-                self.menuCon.constant = -250
-            }
-        } else if sender.tag == 9 {
-            if helper.getUserData() == false {
-                //performSegue(withIdentifier: "msgsSegue", sender: self)
-                self.AlertPopUP(title: "Sorry☹️", message: "you need to be a user to open that page")
-            } else {
-                performSegue(withIdentifier: "msgsSegue", sender: self)
-                self.menuCon.constant = -250
-            }
-        } else if sender.tag == 10 {
-            if helper.getUserData() == false {
-                //performSegue(withIdentifier: "commisionSegue", sender: self)
-                self.AlertPopUP(title: "Sorry☹️", message: "you need to be a user to open that page")
-            } else {
-                performSegue(withIdentifier: "commisionSegue", sender: self)
-                self.menuCon.constant = -250
-            }
-        } else if sender.tag == 11 {
-            if helper.getUserData() == false {
-                performSegue(withIdentifier: "contactSegue", sender: self)
-            } else {
-                performSegue(withIdentifier: "contactSegue", sender: self)
-            }
-            self.menuCon.constant = -250
-        } else if sender.tag == 12 {
-            if helper.getUserData() == false {
-                performSegue(withIdentifier: "aboutSegue", sender: self)
-            } else {
-                performSegue(withIdentifier: "aboutSegue", sender: self)
-            }
-            self.menuCon.constant = -250
-        } else if sender.tag == 13 {
-            // rules ???
-          
-            performSegue(withIdentifier: "toRules", sender: self)
-
-        }
-    }
-    
-    @IBAction func hideMenuBtn(_ sender: Any) {
-        self.menuCon.constant = -250
-        UIView.animate(withDuration: 0.3, animations: {
-            self.view.layoutIfNeeded()
-        })
-    }
-    
     @IBAction func unwindToHome(segue: UIStoryboardSegue) {}
     
     func slid() {
@@ -451,7 +296,17 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
     
     
     
-    
+    func configSWrevealBtn () {
+        if revealViewController() != nil {
+            self.revealViewController()?.delegate = self
+            if self.revealViewController() != nil {
+                menuBtn.target = self.revealViewController()
+                menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
+                self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+
+            }
+        }
+    }
     
     
     
@@ -500,19 +355,7 @@ class HomeVC: UIViewController, UIScrollViewDelegate {
         }
     }
     
-    func userData() {
-        if helper.getUserData() == true  {
-            userNameLab.text = (UserDefaults.standard.object(forKey: "user_name") as! String)
-            let da = helper.getData()
-            let urlString = URLs.image+da["user_photo"]!
-            let url = URL(string: urlString)
-            proImg.kf.indicatorType = .activity
-            proImg.kf.setImage(with: url)
-        } else {
-            self.userNameLab.text = "Visitor"
-            self.proImg.image = #imageLiteral(resourceName: "prof")
-        }
-    }
+    
     
     func AlertPopUP(title: String, message: String ) {
         

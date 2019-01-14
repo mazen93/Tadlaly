@@ -16,12 +16,20 @@ class RulesVC: UIViewController {
     @IBOutlet weak var txt: UITextView!
     @IBOutlet weak var titl: UILabel!
     
+    @IBOutlet weak var navi: UINavigationBar!
+    
+    var recMenu = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if recMenu == "menu" {
+        self.navi.alpha = 1.0
+        } else {
+        self.navi.alpha = 0
+        }
 
-       self.navigationController?.title = "Terms and condtions"
+       self.title = "Terms and condtions"
         
         getRules()
         
@@ -44,13 +52,10 @@ class RulesVC: UIViewController {
         
     }
 
-//    override func viewWillAppear(_ animated: Bool) {
-//
-//        self.navigationController?.isNavigationBarHidden = false
-//        //self.navigationController?.setNavigationBarHidden(false, animated: true)
-//
-//    }
-//
+
+    @IBAction func bkBtn(_ sender: Any) {
+        performSegue(withIdentifier: "ruleUnwind", sender: self)
+    }
     
     func getRules() {
         Alamofire.request(URLs.rules).responseJSON { (response) in

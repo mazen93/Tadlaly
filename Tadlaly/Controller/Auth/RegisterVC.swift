@@ -26,6 +26,7 @@ class RegisterVC: UIViewController {
 
     @IBOutlet weak var reBtn: UIButton!
     @IBOutlet weak var creBtn: CornerButtons!
+    @IBOutlet weak var nav: UINavigationBar!
     
 
    fileprivate let tapSound = Bundle.main.url(forResource: "tap", withExtension: "wav")
@@ -41,11 +42,18 @@ class RegisterVC: UIViewController {
     
 
     
-    
+     var recNav = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
   
+        if recNav == "menu" {
+            self.nav.alpha  = 1.0
+        } else {
+            self.nav.alpha = 0
+        }
+
+        
         userNamTF.placeholder = General.stringForKey(key: "userName")
         phoneTF.placeholder = General.stringForKey(key: "(+country key)phone")
         emailTf.placeholder = General.stringForKey(key: "E-mail")
@@ -154,6 +162,9 @@ class RegisterVC: UIViewController {
         performSegue(withIdentifier: "RulesSegue", sender: self)
     }
     
+    @IBAction func unwindBtn(_ sender: Any) {
+        performSegue(withIdentifier: "regUnwind", sender: self)
+    }
     
 
     func getImage() {

@@ -12,7 +12,7 @@ import SwiftyJSON
 import SVProgressHUD
 
 
-class LogInVC: UIViewController {
+class LogInVC: UIViewController  {
     
     
     @IBOutlet weak var emailTF: ImageInsideTextField!
@@ -109,9 +109,10 @@ class LogInVC: UIViewController {
     @IBAction func skipBtn(_ sender: Any) {
         audioPlayer.play()
         let Sb: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc =   Sb.instantiateViewController(withIdentifier: "main") as! HomeVC
-         self.navigationController?.pushViewController(vc, animated: true)
-        
+        let vc =   Sb.instantiateViewController(withIdentifier: "main") as! SWRevealViewController
+        // self.navigationController?.pushViewController(vc, animated: true)
+        self.present(vc, animated: true,completion: nil)
+
         
     }
     

@@ -79,11 +79,7 @@ class ProfileVC: UIViewController {
     
     
     @IBAction func backButton(_ sender: Any) {
-        if helper.getUserData() == false {
             self.performSegue(withIdentifier: "profileUnwind", sender: self)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
     }
     
     

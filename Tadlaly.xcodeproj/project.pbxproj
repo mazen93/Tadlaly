@@ -15,6 +15,8 @@
 		8F07FE6721CDD30600B3B529 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F07FE6621CDD30500B3B529 /* GoogleService-Info.plist */; };
 		8F08BE0E21A6614C00E6D73A /* MyAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F08BE0D21A6614C00E6D73A /* MyAds.swift */; };
 		8F138FF0218210090083F90E /* AdContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F138FEF218210090083F90E /* AdContentVC.swift */; };
+		8F170F3721ED011800C9DB20 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F170F3621ED011800C9DB20 /* SWRevealViewController.m */; };
+		8F170F3921ED087400C9DB20 /* SliderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F170F3821ED087400C9DB20 /* SliderTableViewController.swift */; };
 		8F47F571217EB43900DFB255 /* AdsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F47F570217EB43700DFB255 /* AdsVC.swift */; };
 		8F47F575217ED01700DFB255 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F47F574217ED01700DFB255 /* CategoryCell.swift */; };
 		8F47F577217ED17E00DFB255 /* SlidShowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F47F576217ED17E00DFB255 /* SlidShowData.swift */; };
@@ -80,6 +82,10 @@
 		8F07FE6621CDD30500B3B529 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8F08BE0D21A6614C00E6D73A /* MyAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAds.swift; sourceTree = "<group>"; };
 		8F138FEF218210090083F90E /* AdContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdContentVC.swift; sourceTree = "<group>"; };
+		8F170F3421ED010700C9DB20 /* Tadlaly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tadlaly-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F170F3521ED011700C9DB20 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8F170F3621ED011800C9DB20 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8F170F3821ED087400C9DB20 /* SliderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewController.swift; sourceTree = "<group>"; };
 		8F35F419219FA9F2008B2BD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		8F47F570217EB43700DFB255 /* AdsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsVC.swift; sourceTree = "<group>"; };
 		8F47F574217ED01700DFB255 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 				8F9DC62A2180C17E0068E4D5 /* AboutUsVC.swift */,
 				8F93718C2183C76200903769 /* RulesVC.swift */,
 				8F853B7D217AC77C007311C8 /* AppDelegate.swift */,
+				8F170F3821ED087400C9DB20 /* SliderTableViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -219,6 +226,9 @@
 		8F853B7C217AC77C007311C8 /* Tadlaly */ = {
 			isa = PBXGroup;
 			children = (
+				8F170F3521ED011700C9DB20 /* SWRevealViewController.h */,
+				8F170F3621ED011800C9DB20 /* SWRevealViewController.m */,
+				8F170F3421ED010700C9DB20 /* Tadlaly-Bridging-Header.h */,
 				04138A2921D15C91008522FF /* localization */,
 				8F0019C921A8690700218500 /* Tadlaly.entitlements */,
 				8FC403C1219A376400FA8325 /* Supporting files */,
@@ -410,7 +420,7 @@
 				TargetAttributes = {
 					8F853B79217AC77C007311C8 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -575,8 +585,10 @@
 				8F6AE821217FB069009CA176 /* AdCell.swift in Sources */,
 				8F853B7E217AC77C007311C8 /* AppDelegate.swift in Sources */,
 				8F93719A2187F30300903769 /* UpdateMyAdVC.swift in Sources */,
+				8F170F3921ED087400C9DB20 /* SliderTableViewController.swift in Sources */,
 				8F9371B22189609F00903769 /* MessagesVC.swift in Sources */,
 				8F9371AE2189425200903769 /* MessagesCell.swift in Sources */,
+				8F170F3721ED011800C9DB20 /* SWRevealViewController.m in Sources */,
 				8F9371A42188E2F000903769 /* LaunchScreenVC.swift in Sources */,
 				8F9DC62B2180C17E0068E4D5 /* AboutUsVC.swift in Sources */,
 				8F9371922186CB5200903769 /* CommisionVC.swift in Sources */,
@@ -759,6 +771,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appzone.tdlaly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tadlaly/Tadlaly-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -782,6 +795,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appzone.tdlaly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tadlaly/Tadlaly-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
