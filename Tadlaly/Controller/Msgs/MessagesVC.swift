@@ -40,11 +40,8 @@ class MessagesVC: UIViewController {
 
     
     @IBAction func baackBtn(_ sender: Any) {
-        if helper.getUserData() == false {
         performSegue(withIdentifier: "msgsUnwind", sender: self)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
+        
     }
     
    func getMsgs()   {

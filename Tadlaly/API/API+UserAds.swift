@@ -36,14 +36,9 @@ extension API {
          //   "images[]": image
             
             
-            
-            
-            
             ] as [String : Any]
         // Including a base 64 encoded image is triggering a crash in xcode 6.4
       
-        
-        
         Alamofire.upload(
             multipartFormData: { multipartFormData in
                 
@@ -66,15 +61,16 @@ extension API {
             to:  urlwithPercentEscapes!,
             encodingCompletion: { encodingResult in
                 
-                switch encodingResult {
-                case .success(let upload, _, _):
-                    upload.responseString { response in
-                        
+        switch encodingResult {
+         case .success(let upload, _, _):
+          upload.responseString { response in
                         print("sucess")
-                        
+           SVProgressHUD.show(UIImage(named: "cor.png")!, status: " your ad has been submitted successfully")
+                SVProgressHUD.setShouldTintImages(false)
+                SVProgressHUD.setImageViewSize(CGSize(width: 40, height: 40))
+                SVProgressHUD.setFont(UIFont.systemFont(ofSize: 20.0))
+                    SVProgressHUD.dismiss(withDelay: 2.0)
                         }
-                
-                
                 case .failure(let encodingError):
                     
                    print(encodingError.localizedDescription)
@@ -242,7 +238,6 @@ extension API {
     
     
     class func deletPic(picId: String, completion: @escaping(_ error: Error?, _ success: Bool)-> Void) {
-        
         
         let url = "http://tdlly.com/Api/DeletPhoto/\(helper.getApiToken())"+picId
         Alamofire.request(url, method: .post, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in

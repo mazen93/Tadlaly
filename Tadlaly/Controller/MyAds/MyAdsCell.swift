@@ -13,10 +13,6 @@ protocol myAdDelegate {
     
     func updateTapped(_ sender: MyAdsCell)
     func deletTapped(_ sender: MyAdsCell)
-    func soldTapped(_ sender: MyAdsCell)
-    func dontSellTapped(_ sender: MyAdsCell)
-    func doneTapped(_ sender: MyAdsCell)
-    func cancelTapped(_ sender: MyAdsCell)
     
 }
 
@@ -26,7 +22,6 @@ class MyAdsCell: UITableViewCell {
     @IBOutlet weak var kind: UILabel!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var date: UILabel!
-    @IBOutlet weak var distance: UILabel!
     @IBOutlet weak var city: UILabel!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var floatView: UIView!
@@ -34,11 +29,7 @@ class MyAdsCell: UITableViewCell {
     @IBOutlet weak var update: UIButton!
     @IBOutlet weak var delet: UIButton!
     
-    @IBOutlet weak var visual: UIVisualEffectView!
-    @IBOutlet weak var soldCheck: UIButton!
-    @IBOutlet weak var dontSellCheck: UIButton!
-    @IBOutlet weak var doneBtn: UIButton!
-    @IBOutlet weak var cancelBtn: UIButton!
+   
     
     override func awakeFromNib() {
         
@@ -49,13 +40,8 @@ class MyAdsCell: UITableViewCell {
         self.kind.clipsToBounds = true
         self.floatView.layer.shadowOpacity = 0.3
         self.floatView.layer.shadowRadius = 2
-        self.visual.layer.cornerRadius = 10.0
-        self.visual.clipsToBounds = true
-        self.visual.alpha = 0
-        self.soldCheck.setImage(UIImage(named:"che1"), for: .normal)
-        self.soldCheck.setImage(UIImage(named:"che2"), for: .selected)
-        self.dontSellCheck.setImage(UIImage(named:"che1"), for: .normal)
-        self.dontSellCheck.setImage(UIImage(named:"che2"), for: .selected)
+       
+       
     }
     
     
@@ -80,19 +66,7 @@ class MyAdsCell: UITableViewCell {
     @IBAction func deletBtn(_ sender: UIButton) {
         delegate?.deletTapped(self)
     }
-    @IBAction func soldChBtn(_ sender: UIButton) {
-        delegate?.soldTapped(self)
-    }
-    
-    @IBAction func dontSellChBtn(_ sender: UIButton) {
-        delegate?.dontSellTapped(self)
-    }
-    @IBAction func donBtn(_ sender: UIButton) {
-        delegate?.doneTapped(self)
-    }
-    @IBAction func canBtn(_ sender: UIButton) {
-        delegate?.cancelTapped(self)
-    }
+   
     
     
     

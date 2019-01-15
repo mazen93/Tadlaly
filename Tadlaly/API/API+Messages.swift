@@ -64,11 +64,11 @@ extension API {
     // show chat with user needs in link > {user_id}​/​{ other person id}
     class func getChat(toUserId:String,completion:@escaping (_ error:Error?, _ data:[Message]?)->Void){
         
-        let url = URLs.showCon+toUserId
+        //let url = URLs.showCon+toUserId
         
         
-        print("url of chat is \(url)")
-//let url = "http://tdlly.com/Api/BetweenMessage/\(helper.getApiToken())/"+toUserId
+       // print("url of chat is \(url)")
+ let url = "http://tdlly.com/Api/BetweenMessage/\(helper.getApiToken())/"+toUserId
        // let url = "http://tdlly.com/Api/BetweenMessage/18/1"
         Alamofire.request(url, method:.post , encoding: URLEncoding.default, headers: nil).responseJSON { response in
             switch response.result

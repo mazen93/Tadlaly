@@ -57,12 +57,8 @@ class ContactUsVC: UIViewController {
     
     @IBAction func bkBtn(_ sender: Any) {
         audioPlayer.play()
-        if helper.getUserData() == false {
-       performSegue(withIdentifier: "conntactUnwind", sender: self)
-        }
-      else {
-          self.dismiss(animated: true, completion: nil)
-         }
+       performSegue(withIdentifier: "contactUnwind", sender: self)
+        
     }
     
     

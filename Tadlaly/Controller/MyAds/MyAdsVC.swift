@@ -20,7 +20,20 @@ class MyAdsVC: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var seg: UISegmentedControl!
-    @IBOutlet weak var msgLabel: UILabel!
+    @IBOutlet weak var bgView: UIVisualEffectView!
+    @IBOutlet weak var msgVi: UIVisualEffectView!
+    
+    
+    @IBOutlet weak var slodCheck: UIButton!
+    @IBOutlet weak var dontCheck: UIButton!
+    
+    @IBOutlet weak var deletLab: UILabel!
+    @IBOutlet weak var soldLab: UILabel!
+    @IBOutlet weak var dontLab: UILabel!
+    @IBOutlet weak var dnBtn: UIButton!
+    @IBOutlet weak var canclBtn: UIButton!
+    
+    
     
     
     fileprivate let tapSound = Bundle.main.url(forResource: "tap", withExtension: "wav")
@@ -53,12 +66,25 @@ class MyAdsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.bgView.alpha = 0
+        self.msgVi.alpha = 0
+        msgVi.layer.cornerRadius = 20.0
+        msgVi.clipsToBounds = true
         seg.setTitle(General.stringForKey(key: "current"), forSegmentAt: 0)
         seg.setTitle(General.stringForKey(key: "last"), forSegmentAt: 1)
         
         
-        self.msgLabel.alpha = 0
+        deletLab.text = General.stringForKey(key: "delet")
+        soldLab.text = General.stringForKey(key: "sold item")
+        dontLab.text = General.stringForKey(key: "don't sell anymore")
+        dnBtn.setTitle(General.stringForKey(key: "done"), for: .normal)
+        canclBtn.setTitle(General.stringForKey(key: "cancel"), for: .normal)
+        
+        self.slodCheck.setImage(UIImage(named:"che1"), for: .normal)
+        self.slodCheck.setImage(UIImage(named:"che2"), for: .selected)
+        self.dontCheck.setImage(UIImage(named:"che1"), for: .normal)
+        self.dontCheck.setImage(UIImage(named:"che2"), for: .selected)
+        
         tableView.dataSource = self
         tableView.delegate = self
         do {
@@ -73,11 +99,7 @@ class MyAdsVC: UIViewController {
 
    
     @IBAction func unwindBtn(_ sender: Any) {
-        if helper.getUserData() == false {
         performSegue(withIdentifier: "myAdsUnwind", sender: self)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
     }
     
     @IBAction func segBtn(_ sender: Any) {
@@ -90,6 +112,46 @@ class MyAdsVC: UIViewController {
         }
     }
     
+    @IBAction func soldCheckBtn(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
+            sender.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+            self.audioPlayer.play()
+        }) { (success) in
+            UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
+                sender.isSelected = !sender.isSelected
+                sender.transform = .identity
+                self.dele = "\(2)"
+                self.audioPlayer.play()
+            }, completion: nil)
+        }
+    }
+    
+    @IBAction func dontCheckBtn(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
+            sender.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+            self.audioPlayer.play()
+        }) { (success) in
+            UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
+                sender.isSelected = !sender.isSelected
+                sender.transform = .identity
+                self.dele = "\(2)"
+                self.audioPlayer.play()
+            }, completion: nil)
+        }
+    }
+    
+    
+    @IBAction func doneBtn(_ sender: Any) {
+        
+        // delet ad here
+        
+    }
+    
+    
+    @IBAction func cancelBtn(_ sender: Any) {
+        self.bgView.alpha = 0.0
+        self.msgVi.alpha = 0.0
+    }
     
     
     @IBAction func unwindToMyAds(segue : UIStoryboardSegue ) {}
@@ -101,7 +163,6 @@ class MyAdsVC: UIViewController {
             self.tableView.reloadWithAnimation()
                 print("myAds", data!)
             }
-            self.msgLabel.alpha = 1
         })
     }
 
@@ -113,11 +174,11 @@ class MyAdsVC: UIViewController {
                 self.myAds = data!
              self.tableView.reloadWithAnimation()
             }
-            self.msgLabel.alpha = 1
         })
 
     }
     
+    /// Mark:- delet imgs from here by sending id
     
 //    func deletAd(reas: String,id: Array<Any>) {
 //
@@ -234,45 +295,9 @@ extension MyAdsVC: UITableViewDelegate, UITableViewDataSource {
 
 extension MyAdsVC: myAdDelegate {
     
-    func soldTapped(_ sender: MyAdsCell) {
-        
-        guard let tappedIndexPath = tableView.indexPath(for: sender) else { return }
-        print("soldCheck", sender, tappedIndexPath)
-        let cell = tableView.cellForRow(at: tappedIndexPath) as! MyAdsCell
-        let s = cell.soldCheck!
-          UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
-            s.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-                    self.audioPlayer.play()
-            }) { (success) in
-                UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
-                    s.isSelected = !sender.isSelected
-                    s.transform = .identity
-                    self.dele = "\(2)"
-                    self.audioPlayer.play()
-                    }, completion: nil)
-                }
-    }
     
-    func dontSellTapped(_ sender: MyAdsCell) {
-        guard let tappedIndexPath = tableView.indexPath(for: sender) else { return }
-         print("dontsoldCheck", sender, tappedIndexPath)
-        //let s = myAds[tappedIndexPath.row].id_advertisement
-        let ce = tableView.cellForRow(at: tappedIndexPath) as! MyAdsCell
-        let bu = ce.dontSellCheck!
-                UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
-                    bu.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-                    self.audioPlayer.play()
-                }) { (success) in
-                    UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveLinear, animations: {
-                        bu.isSelected = !sender.isSelected
-                        bu.transform = .identity
-                        self.dele = "\(2)"
-                        self.audioPlayer.play()
-                    }, completion: nil)
-                }
-        
-    }
     
+   
     func updateTapped(_ sender: MyAdsCell) {
          //guard let tappedIndexPath = tableView.indexPath(for: sender) else { return }
           //let cel = tableView.cellForRow(at: tappedIndexPath) as! MyAdsCell
@@ -281,47 +306,23 @@ extension MyAdsVC: myAdDelegate {
     
     func deletTapped(_ sender: MyAdsCell) {
         
-        // show visual here
     guard let tappedIndexPath = tableView.indexPath(for: sender) else { return }
-        let cell = tableView.cellForRow(at: tappedIndexPath) as! MyAdsCell
+       // let cell = tableView.cellForRow(at: tappedIndexPath) as! MyAdsCell
         print(tappedIndexPath)
-//        let hi = cell.delet!
-//        hi.alpha = 1.0
-        cell.visual.alpha = 1.0
         
-    
+        
+        self.bgView.alpha = 1.0
+        self.msgVi.alpha = 1.0
+         self.msgVi.transform = CGAffineTransform(scaleX: 0.3, y: 1)
+        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0.0, options:.curveEaseOut, animations: {
+            
+            self.msgVi.transform = .identity
+        }, completion: nil)
     }
     
-    func doneTapped(_ sender: MyAdsCell) {
-        guard let tappedIndexPath = tableView.indexPath(for: sender) else { return }
-        let indx = myAds[tappedIndexPath.row].id_advertisement
-        self.ids.append(indx)
-        //self.selectedIndex = "\(tappedIndexPath)"
-        API.deletAd(reason: dele, idsAdvertisement: ids) { (error: Error?, success: Bool) in
-            if success {
-                //self.myAds.remove(at: self.indxPath.row)
-                self.myAds.remove(at: tappedIndexPath.row)
-                self.tableView.deleteRows(at: [tappedIndexPath], with: .automatic)
-            } else {
-                SVProgressHUD.show(UIImage(named: "er.png")!, status: "Connection Weak.try again later")
-                SVProgressHUD.setShouldTintImages(false)
-                SVProgressHUD.setImageViewSize(CGSize(width: 40, height: 40))
-                SVProgressHUD.setFont(UIFont.systemFont(ofSize: 20.0))
-                SVProgressHUD.dismiss(withDelay: 2.0)
-            }
-        }
-    }
     
-    func cancelTapped(_ sender: MyAdsCell) {
-    //hide visual here
-        guard let tappedIndexPath = tableView.indexPath(for: sender) else { return }
-        print(tappedIndexPath)
-        let cell = tableView.cellForRow(at: tappedIndexPath) as! MyAdsCell
-//        let sh = cell.visual!
-//           sh.alpha = 0
-        //cell.visual.alpha = 0
-        cell.visual.alpha = 0.0
-    }
+    
+    
     
     
 }

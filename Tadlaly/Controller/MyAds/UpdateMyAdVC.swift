@@ -113,7 +113,9 @@ class UpdateMyAdVC: UIViewController {
         self.priceTF.text = recPrice
         self.phoneTF.text = recNum
 
-        
+        typeTF.placeholder = General.stringForKey(key: "type")
+        departmentTF.placeholder = General.stringForKey(key: "department")
+        brancheTF.placeholder = General.stringForKey(key: "branch")
         unDeLab.text = General.stringForKey(key: "Undefiend")
         titleTF.placeholder = General.stringForKey(key: "ad title")
         cityTF.placeholder = General.stringForKey(key: "city")

@@ -60,12 +60,8 @@ class CommisionVC: UIViewController {
 
     
     @IBAction func bkButton ( _ sender: Any ) {
-       if helper.getUserData() == false {
-    performSegue(withIdentifier: "commisionUnwind", sender: self)
-        }
-       else {
-        self.dismiss(animated: true, completion: nil)
-        }
+       performSegue(withIdentifier: "payUnwind", sender: self)
+       
     }
     
     

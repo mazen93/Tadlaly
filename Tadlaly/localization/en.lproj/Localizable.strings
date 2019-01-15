@@ -15,7 +15,7 @@
 "(+country key)phone"="(+country key)phone";
 "city"="City";
 "re-password"="Re-password";
-"approve the terms and condtions"="Approve the terms and condtions";
+"approve the terms and conditions"="Approve the terms and condtions";
 "Create account"="Create account";
 "home"="Home";
 "all"="All";
@@ -72,3 +72,11 @@
 "adId"="adId";
 "rest Password"="rest Password";
 "Bank"="Bank";
+"delet"="delet";
+"sold item"="sold item";
+"don't sell anymore"="don't sell anymore";
+"done"="done";
+"cancel"="cancel";
+"department"="department";
+"branch"="branch";
+"type"="type";

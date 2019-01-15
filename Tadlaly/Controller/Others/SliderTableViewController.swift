@@ -46,7 +46,7 @@ class SliderTableViewController: UITableViewController {
         aboutLab.text = General.stringForKey(key: "about")
         termsLab.text = General.stringForKey(key: "terms and condtions")
         logOutLab.setTitle(General.stringForKey(key: "logout"), for: .normal)
-        
+
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -56,26 +56,36 @@ class SliderTableViewController: UITableViewController {
     }
 
     
-//    if helper.getUserData() == true {
-//    API.logOut { (error: Error?, success: Bool?) in
-//    if success! {
-//    helper.deletUserDefaults()
-//    } else {
-//
-//    self.AlertPopUP(title: "Connection weak!", message: "Please try again later")}
-//    }
-//    }
+
+
     
-//    print("language Pressed")
-//
-//    if General.CurrentLanguage() == "ar"
-//    {
-//    CheckLanguage.ChangeLanguage(NewLang: "en")
-//    }else
-//    {
-//    CheckLanguage.ChangeLanguage(NewLang: "ar")
-//    }
-//    helper.restartApp()
+    
+    @IBAction func langButn(_ sender: Any) {
+            print("language Pressed")
+        
+            if General.CurrentLanguage() == "ar"
+            {
+            CheckLanguage.ChangeLanguage(NewLang: "en")
+            }else
+            {
+            CheckLanguage.ChangeLanguage(NewLang: "ar")
+            }
+            helper.restartApp()
+        
+    }
+    @IBAction func logiutButn(_ sender: Any) {
+        
+            if helper.getUserData() == true {
+            API.logOut { (error: Error?, success: Bool?) in
+            if success! {
+            helper.deletUserDefaults()
+            } else {
+        
+            self.AlertPopUP(title: "Connection weak!", message: "Please try again later")}
+            }
+            }
+        
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "termsSegue" {
@@ -91,7 +101,7 @@ class SliderTableViewController: UITableViewController {
     
     func userData() {
         if helper.getUserData() == true  {
-            //userNameLab.text = (UserDefaults.standard.object(forKey: "user_name") as! String)
+            userNameLab.text = (UserDefaults.standard.object(forKey: "user_name") as! String)
             let da = helper.getData()
             let urlString = URLs.image+da["user_photo"]!
             let url = URL(string: urlString)

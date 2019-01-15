@@ -416,12 +416,6 @@
                                     <action selector="prevBtn:" destination="oOM-Wm-RcP" eventType="touchUpInside" id="IY5-EP-mku"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8O-zK-qIX">
-                                <rect key="frame" x="169" y="552.5" width="37" height="20.5"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnY-ut-wgF">
                                 <rect key="frame" x="16" y="259" width="343" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -539,7 +533,6 @@
                             <constraint firstItem="lc8-tI-EwE" firstAttribute="top" secondItem="2F4-jg-fGb" secondAttribute="bottom" id="NYy-4Y-HWH"/>
                             <constraint firstItem="hjl-xw-YQn" firstAttribute="leading" secondItem="rVG-CS-81f" secondAttribute="leading" constant="10" id="SQh-As-Lkr"/>
                             <constraint firstItem="Ci1-05-QMu" firstAttribute="leading" secondItem="rVG-CS-81f" secondAttribute="leading" id="Sfr-a8-1UQ"/>
-                            <constraint firstItem="f06-ES-nhL" firstAttribute="top" secondItem="3Fy-0P-55w" secondAttribute="bottom" constant="4" id="ZZu-cd-jEQ"/>
                             <constraint firstItem="rVG-CS-81f" firstAttribute="trailing" secondItem="3Fy-0P-55w" secondAttribute="trailing" constant="16" id="ZzC-e7-ucT"/>
                             <constraint firstItem="lc8-tI-EwE" firstAttribute="bottom" secondItem="rVG-CS-81f" secondAttribute="bottom" id="bdY-Q6-uFQ"/>
                             <constraint firstItem="3Fy-0P-55w" firstAttribute="leading" secondItem="rVG-CS-81f" secondAttribute="leading" constant="16" id="hQp-YZ-8bR"/>
@@ -554,7 +547,6 @@
                             <constraint firstItem="lc8-tI-EwE" firstAttribute="top" secondItem="f06-ES-nhL" secondAttribute="bottom" constant="70" id="rq5-fR-WH1"/>
                             <constraint firstItem="TSO-wk-377" firstAttribute="leading" secondItem="rVG-CS-81f" secondAttribute="leading" constant="16" id="tMF-29-CgX"/>
                             <constraint firstItem="rVG-CS-81f" firstAttribute="trailing" secondItem="f06-ES-nhL" secondAttribute="trailing" constant="16" id="wYJ-wJ-Wrq"/>
-                            <constraint firstItem="G8O-zK-qIX" firstAttribute="centerX" secondItem="BzI-gv-9Vy" secondAttribute="centerX" id="xKU-Sn-pBJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rVG-CS-81f"/>
                     </view>
@@ -1645,7 +1637,6 @@
                         <outlet property="img" destination="mXI-Qk-NMd" id="aNv-o3-dIo"/>
                         <outlet property="text" destination="fOO-Ly-AzW" id="GYG-Kn-8OB"/>
                         <segue destination="Wod-zP-J5G" kind="unwind" identifier="aboutUnwind" unwindAction="unwindToHomeWithSegue:" id="4kV-IR-z4E"/>
-                        <segue destination="Wod-zP-J5G" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="pg4-2B-xzJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zTi-GY-AaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1848,7 +1839,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Rules" id="7dI-Rf-vsd">
+                                    <navigationItem id="7dI-Rf-vsd">
                                         <barButtonItem key="leftBarButtonItem" image="back" id="S6l-z0-lgJ">
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
@@ -2283,8 +2274,7 @@
                         <outlet property="senBtn" destination="vhc-ve-ipD" id="Pdd-bW-rbI"/>
                         <outlet property="subjecTF" destination="ZhE-g9-YN5" id="qz0-AH-7DE"/>
                         <outlet property="wtsBtn" destination="Occ-qT-mZ4" id="MdQ-8U-fpx"/>
-                        <segue destination="hlX-eB-awE" kind="unwind" identifier="conntactUnwind" unwindAction="unwindToHomeWithSegue:" id="waU-ux-Mmu"/>
-                        <segue destination="hlX-eB-awE" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="4uf-pc-XZT"/>
+                        <segue destination="hlX-eB-awE" kind="unwind" identifier="contactUnwind" unwindAction="unwindToHomeWithSegue:" id="waU-ux-Mmu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bjl-xs-EFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2503,8 +2493,7 @@
                         <outlet property="phoneTF" destination="Uq4-io-wjk" id="s77-fE-6Ix"/>
                         <outlet property="pic" destination="Tlg-GE-rNR" id="jPO-eC-urW"/>
                         <outlet property="seBtn" destination="Tg8-dk-RiO" id="3nk-KE-uMS"/>
-                        <segue destination="aII-y5-WNe" kind="unwind" identifier="commisionUnwind" unwindAction="unwindToHomeWithSegue:" id="CCc-zK-vvw"/>
-                        <segue destination="aII-y5-WNe" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="Ohc-EE-ZFA"/>
+                        <segue destination="aII-y5-WNe" kind="unwind" identifier="payUnwind" unwindAction="unwindToHomeWithSegue:" id="CCc-zK-vvw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tew-oL-P8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3296,7 +3285,6 @@
                         <outlet property="typeTF" destination="u41-SA-9b5" id="zR0-XO-8HW"/>
                         <segue destination="KTi-2h-Ad2" kind="show" identifier="ContractSegue" id="xDx-wT-cxt"/>
                         <segue destination="IZX-85-cgS" kind="unwind" identifier="uploadUnwind" unwindAction="unwindToHomeWithSegue:" id="Rk6-bu-1YI"/>
-                        <segue destination="IZX-85-cgS" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="4gF-TK-gf6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KfH-Jy-OKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3312,16 +3300,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data!!                                            please try Later" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rds-i1-5fl">
-                                <rect key="frame" x="-14.5" y="318.5" width="404" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="AKg-Eo-QgF"/>
-                                    <constraint firstAttribute="height" constant="50" id="j1a-cj-7hI"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PP3-We-l2E">
                                 <rect key="frame" x="0.0" y="102" width="375" height="565"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3463,7 +3441,6 @@
                                             <outlet property="price" destination="plD-MQ-ENu" id="RBB-lf-8lo"/>
                                             <outlet property="title" destination="Lqp-zV-JN3" id="PIk-Sg-jBG"/>
                                             <outlet property="update" destination="QR7-xn-fLT" id="Sst-i7-EvD"/>
-                                            <outlet property="visual" destination="Xcx-x2-Wak" id="nXY-hJ-DnS"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -3532,6 +3509,9 @@
                                                             <constraint firstAttribute="height" constant="23" id="wGM-uP-coS"/>
                                                         </constraints>
                                                         <state key="normal" image="che1"/>
+                                                        <connections>
+                                                            <action selector="soldCheckBtn:" destination="6sG-es-z5w" eventType="touchUpInside" id="moA-Nn-ReY"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sold item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvy-5B-oqg">
                                                         <rect key="frame" x="198" y="51.5" width="70" height="20"/>
@@ -3549,6 +3529,9 @@
                                                         <state key="normal" title="Done">
                                                             <color key="titleColor" red="0.49019607840000001" green="0.0" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="doneBtn:" destination="6sG-es-z5w" eventType="touchUpInside" id="sno-3t-L3b"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUD-io-yH3">
                                                         <rect key="frame" x="8" y="143" width="55" height="33"/>
@@ -3556,6 +3539,9 @@
                                                         <state key="normal" title="Cancel">
                                                             <color key="titleColor" red="0.49019607840000001" green="0.0" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cancelBtn:" destination="6sG-es-z5w" eventType="touchUpInside" id="EoB-ct-crh"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-bu-4vE">
                                                         <rect key="frame" x="269" y="83" width="23" height="23"/>
@@ -3564,6 +3550,9 @@
                                                             <constraint firstAttribute="width" secondItem="dhr-bu-4vE" secondAttribute="height" multiplier="1:1" id="tHB-Mc-Dkk"/>
                                                         </constraints>
                                                         <state key="normal" image="che1"/>
+                                                        <connections>
+                                                            <action selector="dontCheckBtn:" destination="6sG-es-z5w" eventType="touchUpInside" id="PkV-KH-8xq"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -3614,11 +3603,9 @@
                             <constraint firstItem="ARc-FM-l3Z" firstAttribute="top" secondItem="5wO-yz-ZnY" secondAttribute="top" id="9rN-zV-HcD"/>
                             <constraint firstItem="PP3-We-l2E" firstAttribute="bottom" secondItem="0Ra-oC-zpF" secondAttribute="bottom" id="EHt-dz-ZZp"/>
                             <constraint firstItem="PP3-We-l2E" firstAttribute="trailing" secondItem="0Ra-oC-zpF" secondAttribute="trailing" id="Fjh-3r-xGl"/>
-                            <constraint firstItem="rds-i1-5fl" firstAttribute="centerX" secondItem="0Ra-oC-zpF" secondAttribute="centerX" id="Hhl-uK-rz3"/>
                             <constraint firstItem="ARc-FM-l3Z" firstAttribute="leading" secondItem="0Ra-oC-zpF" secondAttribute="leading" id="Kul-pw-8MR"/>
                             <constraint firstItem="Do8-lF-ISr" firstAttribute="centerX" secondItem="5wO-yz-ZnY" secondAttribute="centerX" id="OVD-Qq-jOn"/>
                             <constraint firstItem="Do8-lF-ISr" firstAttribute="top" secondItem="uq1-xs-IGF" secondAttribute="bottom" constant="5" id="cJm-03-027"/>
-                            <constraint firstItem="rds-i1-5fl" firstAttribute="centerY" secondItem="0Ra-oC-zpF" secondAttribute="centerY" id="ch0-qr-Rh8"/>
                             <constraint firstItem="PP3-We-l2E" firstAttribute="top" secondItem="Do8-lF-ISr" secondAttribute="bottom" constant="5" id="g3E-Ry-V1Q"/>
                             <constraint firstItem="ARc-FM-l3Z" firstAttribute="bottom" secondItem="0Ra-oC-zpF" secondAttribute="bottom" id="geY-2r-Rs7"/>
                             <constraint firstItem="ARc-FM-l3Z" firstAttribute="trailing" secondItem="0Ra-oC-zpF" secondAttribute="trailing" id="pzc-MA-6wt"/>
@@ -3628,13 +3615,20 @@
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
-                        <outlet property="msgLabel" destination="rds-i1-5fl" id="UhX-Eo-1JN"/>
+                        <outlet property="bgView" destination="ARc-FM-l3Z" id="ggC-kC-Pl1"/>
+                        <outlet property="canclBtn" destination="hUD-io-yH3" id="Kec-EP-4ou"/>
+                        <outlet property="deletLab" destination="EAI-oh-uIe" id="ipx-pl-7wl"/>
+                        <outlet property="dnBtn" destination="LP3-0A-vGQ" id="uLw-bO-l2M"/>
+                        <outlet property="dontCheck" destination="dhr-bu-4vE" id="UQz-1s-ve4"/>
+                        <outlet property="dontLab" destination="gsH-dB-Exo" id="lvg-FJ-Vcg"/>
+                        <outlet property="msgVi" destination="Xcx-x2-Wak" id="0ci-cJ-3yR"/>
                         <outlet property="seg" destination="Do8-lF-ISr" id="owd-ym-bZL"/>
+                        <outlet property="slodCheck" destination="5oP-8u-brc" id="YmQ-Uk-Wtr"/>
+                        <outlet property="soldLab" destination="gvy-5B-oqg" id="VSK-QC-l0q"/>
                         <outlet property="tableView" destination="PP3-We-l2E" id="oFR-9h-nz1"/>
                         <segue destination="aha-Bj-qOW" kind="show" identifier="UpdateMyAdSegue" id="EF3-r7-vo7"/>
                         <segue destination="9z7-h4-mts" kind="show" identifier="MyAdContentSegue" id="jJh-Q4-2nG"/>
                         <segue destination="9Cc-za-aYf" kind="unwind" identifier="myAdsUnwind" unwindAction="unwindToHomeWithSegue:" id="Ffb-hz-FH4"/>
-                        <segue destination="9Cc-za-aYf" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="eNP-6b-wdr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkw-DS-18w" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4308,7 +4302,7 @@
         <!--Slider Table View Controller-->
         <scene sceneID="2VY-cp-Bph">
             <objects>
-                <tableViewController storyboardIdentifier="rear" id="jsd-mA-Cos" customClass="SliderTableViewController" customModule="Tadlaly" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="jsd-mA-Cos" customClass="SliderTableViewController" customModule="Tadlaly" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SBN-bY-tvF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4348,7 +4342,7 @@
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="langBtn:" destination="jsd-mA-Cos" eventType="touchUpInside" id="4wZ-FF-3oM"/>
+                                                        <action selector="langButn:" destination="jsd-mA-Cos" eventType="touchUpInside" id="hJ6-wn-r4B"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -4726,7 +4720,7 @@
                                                     </constraints>
                                                     <state key="normal" title="Log Out"/>
                                                     <connections>
-                                                        <action selector="logoutBtn:" destination="jsd-mA-Cos" eventType="touchUpInside" id="3wz-JP-ajr"/>
+                                                        <action selector="logiutButn:" destination="jsd-mA-Cos" eventType="touchUpInside" id="Sdy-IJ-GkD"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -4761,7 +4755,6 @@
                         <outlet property="myAdsLab" destination="HIP-G5-QQT" id="fUk-7T-Gxc"/>
                         <outlet property="payLab" destination="GjX-d4-qO4" id="U7Q-Vp-pMz"/>
                         <outlet property="proLab" destination="Gns-cy-VkK" id="qNn-g1-BtX"/>
-                        <outlet property="profile" destination="LoO-Ri-ClC" id="vuN-w5-eV4"/>
                         <outlet property="profileImg" destination="LoO-Ri-ClC" id="j1i-bt-ahx"/>
                         <outlet property="regsLab" destination="8vb-13-hIx" id="3Qa-bb-jfX"/>
                         <outlet property="termsLab" destination="CCX-2L-vch" id="6Oq-9y-GAl"/>
@@ -4828,7 +4821,7 @@
         <image name="wts" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eSV-QH-1Gq"/>
+        <segue reference="j3I-BM-3no"/>
         <segue reference="SZa-Xe-pBF"/>
         <segue reference="ctG-wm-OjK"/>
         <segue reference="JDR-7s-32f"/>

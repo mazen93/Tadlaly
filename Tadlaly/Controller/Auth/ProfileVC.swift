@@ -44,9 +44,9 @@ class ProfileVC: UIViewController {
         nameTF.placeholder = General.stringForKey(key: "userName")
         phoneTF.placeholder = General.stringForKey(key: "phone")
         emailTF.placeholder = General.stringForKey(key: "E-mail")
-        passTF.placeholder = General.stringForKey(key: "password")
+        passTF.placeholder = General.stringForKey(key: "Password")
         cityTF.placeholder = General.stringForKey(key: "city")
-        navigationItem.title = General.stringForKey(key: "profile")
+        self.title = General.stringForKey(key: "profile")
         
         
         

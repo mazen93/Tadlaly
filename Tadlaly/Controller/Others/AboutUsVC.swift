@@ -27,9 +27,7 @@ class AboutUsVC: UIViewController {
         } catch {
             print("faild to load sound")
         }
-//        try? AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.ambient)
-//        try? AVAudioSession.sharedInstance().setActive(true)
-        
+
         self.img.layer.cornerRadius = 10.0
         self.img.clipsToBounds = true
         self.img.layer.shadowColor = UIColor.darkGray.cgColor
@@ -56,11 +54,8 @@ class AboutUsVC: UIViewController {
 
     @IBAction func back(_ sender: Any) {
         audioPlayer.play()
-        if helper.getUserData() == false {
         performSegue(withIdentifier: "aboutUnwind", sender: self)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
+       
     }
     
     

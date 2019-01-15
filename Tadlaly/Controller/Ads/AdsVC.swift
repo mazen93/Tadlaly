@@ -82,7 +82,7 @@ class AdsVC: UIViewController {
     var mainName=""
   
     override func viewDidAppear(_ animated: Bool) {
-       // getNearAds()
+        getNearAds()
         
     }
     
@@ -115,8 +115,8 @@ class AdsVC: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
-        //tableView.emptyDataSetSource = self
-     //   tableView.emptyDataSetDelegate = self
+        tableView.emptyDataSetSource = self
+        tableView.emptyDataSetDelegate = self
         
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -366,6 +366,18 @@ extension AdsVC: UITableViewDelegate, UITableViewDataSource {
            // cell.kindLabel.text = nearAd[indexPath.row].kind
             cell.distanceLab.text = nearAd[indexPath.row].distance
         
+        let advType = nearAd[indexPath.row].typ
+        if advType == "1"
+        {
+            cell.kindLabel.text = "New"
+        }else if advType == "2"{
+            cell.kindLabel.text = "used"
+            cell.kindLabel.backgroundColor = UIColor.gray
+        } else {
+            cell.kindLabel.text = "none"
+            cell.kindLabel.backgroundColor = UIColor.gray
+        }
+        
 //        if nearAd[indexPath.row].typ == "2" {
 //            cell.kindLabel.backgroundColor = UIColor.gray
 //            cell.kindLabel.textColor = UIColor.black
@@ -375,7 +387,7 @@ extension AdsVC: UITableViewDelegate, UITableViewDataSource {
 //        } else {
 //            cell.kindLabel.backgroundColor = UIColor.gray
 //            cell.kindLabel.textColor = UIColor.black
-  //      }
+//        }
         
         return cell
     }
@@ -403,11 +415,6 @@ extension AdsVC: UITableViewDelegate, UITableViewDataSource {
         
         
         
-        
-        
-        
-        
-        
         performSegue(withIdentifier: "ContentSegue", sender: self)
         
     }
@@ -429,7 +436,7 @@ extension AdsVC: UITableViewDelegate, UITableViewDataSource {
             adContentVc?.recUserId = selectedUserId
             
             adContentVc?.recImgs=selectedImages
-            //adContentVc?.recTyp = selectedTyp
+            adContentVc?.recTyp = selectedTyp
             adContentVc?.recPage = "adsPage"
                 }
              }
@@ -568,7 +575,7 @@ extension AdsVC: UICollectionViewDelegate , UICollectionViewDataSource {
         let branchNamme=branchData[indexPath.row].subName
         
         
-        print("branchreee Name  \(branchNamme)")
+        print("branchreee Name  \(String(describing: branchNamme))")
         getSubAds(BranchName: branchNamme!)
         
         
@@ -582,28 +589,28 @@ extension AdsVC: UICollectionViewDelegate , UICollectionViewDataSource {
                    
     
 }
-//extension AdsVC: DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {
-//
-//    func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
-//        let str = "Connection Weak"
-//        let attrs = [NSAttributedString.Key.font: UIFont.preferredFont(forTextStyle: .headline)]
-//        return NSAttributedString(string: str, attributes: attrs)
-//    }
-//
-//    func image(forEmptyDataSet scrollView: UIScrollView!) -> UIImage! {
-//
-//        return UIImage(named: "empg.png")
-//    }
-//
-//    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
-//        let str = "Try again later to explore our awsome ads🛍"
-//        let attrs = [NSAttributedString.Key.font: UIFont.preferredFont(forTextStyle: .body)]
-//        return NSAttributedString(string: str, attributes: attrs)
-//    }
-//
-//
-//
-//}
+extension AdsVC: DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {
+
+    func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let str = "Connection Weak"
+        let attrs = [NSAttributedString.Key.font: UIFont.preferredFont(forTextStyle: .headline)]
+        return NSAttributedString(string: str, attributes: attrs)
+    }
+
+    func image(forEmptyDataSet scrollView: UIScrollView!) -> UIImage! {
+
+        return UIImage(named: "empg.png")
+    }
+
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let str = "Try again later to explore our awsome ads🛍"
+        let attrs = [NSAttributedString.Key.font: UIFont.preferredFont(forTextStyle: .body)]
+        return NSAttributedString(string: str, attributes: attrs)
+    }
+
+
+
+}
 
 extension UITableView {
     func reloadWithAnimation() {

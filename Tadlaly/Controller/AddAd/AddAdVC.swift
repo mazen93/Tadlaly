@@ -65,9 +65,7 @@ class AddAdVC: UIViewController{
             var images = [UIImage]()
             var imgString = [String]()
     
-           // var sectionTitle = ""
-           // var branchTitle = ""
-           // var typeTitle = ""
+    
             var ti = ""
             var city = ""
             var phn = ""
@@ -79,7 +77,6 @@ class AddAdVC: UIViewController{
             let typeData = ["Select Type", "new", "used","none"]
     
             var indx = [Int]()
-            //var  indx:[Int] = []
     
     
     
@@ -106,6 +103,9 @@ class AddAdVC: UIViewController{
         
         sub()
         
+        typeTF.placeholder = General.stringForKey(key: "type")
+        departmentTF.placeholder = General.stringForKey(key: "department")
+        brancheTF.placeholder = General.stringForKey(key: "branch")
         priLab.text = General.stringForKey(key: "Undefiend")
         titleTF.placeholder = General.stringForKey(key: "ad title")
         cityTF.placeholder = General.stringForKey(key: "city")
@@ -223,11 +223,8 @@ class AddAdVC: UIViewController{
     
     
     @IBAction func backBtn(_ sender: Any) {
-        if helper.getUserData() == false {
         performSegue(withIdentifier: "uploadUnwind", sender: self)
-        } else {
-            self.dismiss(animated: true, completion: nil)
-        }
+        
     }
     
     
